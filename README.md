@@ -41,6 +41,7 @@ https://geekhack.org/index.php?topic=48718
 - wireless/blue tooth?
 - chain multiple?
 - headphone jack passthrough
+- pogo pin connection
 
 ## Keycaps
 
