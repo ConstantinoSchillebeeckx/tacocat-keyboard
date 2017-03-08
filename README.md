@@ -40,6 +40,7 @@ https://geekhack.org/index.php?topic=48718
 - USB pass through
 - wireless/blue tooth?
 - chain multiple?
+- headphone jack passthrough
 
 ## Keycaps
 
