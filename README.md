@@ -32,6 +32,8 @@ https://geekhack.org/index.php?topic=48718
 
 [keyboardio](https://shop.keyboard.io/)
 
+[stratos](https://imgur.com/a/J0WIa)
+
 ## Feature ideas:
 
 - mechanism to adjust tent
