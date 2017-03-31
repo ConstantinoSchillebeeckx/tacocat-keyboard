@@ -42,6 +42,7 @@ https://geekhack.org/index.php?topic=48718
 - chain multiple?
 - headphone jack passthrough
 - pogo pin connection
+- live edge wooden case
 
 ## Keycaps
 
