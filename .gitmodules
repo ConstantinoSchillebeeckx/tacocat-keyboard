@@ -1,0 +1,3 @@
+[submodule "cad/cherry-mx-keycaps"]
+	path = cad/cherry-mx-keycaps
+	url = git@github.com:ConstantinoSchillebeeckx/cherry-mx-keycaps.git
