@@ -1,6 +1,6 @@
 [submodule "cad/cherry-mx-keycaps"]
-	path = cad/cherry-mx-keycaps
+	path = CAD/cherry-mx-keycaps
 	url = git@github.com:ConstantinoSchillebeeckx/cherry-mx-keycaps.git
 [submodule "cad/cherry-mx-switch"]
-	path = cad/cherry-mx-switch
+	path = CAD/cherry-mx-switch
 	url = git@github.com:ConstantinoSchillebeeckx/cherry-mx-switch.git
