@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -182,6 +182,18 @@
 <pad name="SW2@1" x="-2.54" y="5.08" drill="1.5" diameter="2.54"/>
 <hole x="5.08" y="0" drill="1.7144"/>
 <hole x="-5.08" y="0" drill="1.7144"/>
+<wire x1="6.375" y1="-6.75" x2="6" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="-6.375" y1="-6.75" x2="-6" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="6.375" y1="-6.75" x2="6.375" y2="-6.375" width="0.127" layer="21"/>
+<wire x1="-6.375" y1="-6.75" x2="-6.375" y2="-6.375" width="0.127" layer="21"/>
+<wire x1="6.375" y1="6.75" x2="6" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-6.375" y1="6.75" x2="-6" y2="6.75" width="0.127" layer="21"/>
+<wire x1="-6.375" y1="6.75" x2="-6.375" y2="6.375" width="0.127" layer="21"/>
+<wire x1="6.375" y1="6.75" x2="6.375" y2="6.375" width="0.127" layer="21"/>
+<wire x1="0.1875" y1="6.75" x2="-0.1875" y2="6.75" width="0.127" layer="21"/>
+<wire x1="0.1875" y1="-6.75" x2="-0.1875" y2="-6.75" width="0.127" layer="21"/>
+<wire x1="-6.375" y1="0.1875" x2="-6.375" y2="-0.1875" width="0.127" layer="21"/>
+<wire x1="6.375" y1="0.1875" x2="6.375" y2="-0.1875" width="0.127" layer="21"/>
 </package>
 <package name="CHERRY-MX">
 <description>Cherry MX Keyswitch footprint</description>
@@ -8158,37 +8170,37 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 </class>
 </classes>
 <parts>
-<part name="U$1" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$2" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$3" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$4" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$5" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$26" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$1" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$2" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$3" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$4" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$5" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$26" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="U$6" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
-<part name="U$7" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$8" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$9" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$10" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$11" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$7" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$8" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$9" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$10" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$11" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="U$13" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
-<part name="U$14" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$15" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$16" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$17" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$18" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$20" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$21" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$22" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$23" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$24" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$25" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
-<part name="U$28" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$14" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$15" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$16" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$17" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$18" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$20" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$21" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$22" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$23" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$24" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$25" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
+<part name="U$28" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="U$29" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
-<part name="U$30" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$30" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="U$31" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
 <part name="U$32" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
 <part name="U$33" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
-<part name="U$34" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$34" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
@@ -8236,7 +8248,7 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="4UCON-15767"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_20" device="NOSILK"/>
-<part name="U$12" library="cherrymx" deviceset="CHERRY-MX" device="SYMMETRIC" value="CHERRY-MXSYMMETRIC"/>
+<part name="U$12" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_02" device="4UCON-15767"/>
 <part name="P+19" library="supply1" deviceset="V+" device=""/>
@@ -8349,6 +8361,11 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <part name="C5" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
+<part name="J7" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
+<part name="J8" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="J9" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
+<part name="J10" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
 </parts>
 <sheets>
 <sheet>
@@ -8369,6 +8386,12 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <text x="510.54" y="248.92" size="1.778" layer="101">Side R</text>
 <text x="487.68" y="248.92" size="1.778" layer="101">Side L</text>
 <text x="373.38" y="215.9" size="1.778" layer="101">Side L</text>
+<text x="594.36" y="261.62" size="5.08" layer="101">Audio passthrough</text>
+<text x="594.36" y="256.54" size="3.81" layer="101">assumes symmetric connection (tip -&gt; tip)</text>
+<text x="599.44" y="243.84" size="1.778" layer="101">Side L</text>
+<text x="624.84" y="243.84" size="1.778" layer="101">Side R</text>
+<text x="680.72" y="243.84" size="1.778" layer="101">Side R</text>
+<text x="652.78" y="243.84" size="1.778" layer="101">Side L</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="30.48" y="96.52"/>
@@ -8566,6 +8589,19 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <instance part="C5" gate="G$1" x="683.26" y="119.38"/>
 <instance part="GND52" gate="1" x="683.26" y="109.22" rot="MR0"/>
 <instance part="GND53" gate="1" x="668.02" y="81.28" rot="MR0"/>
+<instance part="J7" gate="G$1" x="601.98" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="607.568" y="236.22" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="J8" gate="G$1" x="627.38" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="632.968" y="236.22" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="GND15" gate="1" x="632.46" y="208.28" rot="MR0"/>
+<instance part="J9" gate="G$1" x="655.32" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="660.908" y="236.22" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
+<instance part="J10" gate="G$1" x="680.72" y="231.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="686.308" y="236.22" size="1.778" layer="95" font="vector" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8604,9 +8640,9 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <label x="-5.08" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="203.2" y1="215.9" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
-<label x="208.28" y="215.9" size="0.8128" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP3" gate="A" pin="7"/>
+<wire x1="203.2" y1="220.98" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
+<label x="208.28" y="220.98" size="0.8128" layer="95" rot="MR180" xref="yes"/>
+<pinref part="JP3" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="R5" class="0">
@@ -8648,9 +8684,9 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <pinref part="U$12" gate="G$1" pin="SW1"/>
 </segment>
 <segment>
-<wire x1="203.2" y1="218.44" x2="208.28" y2="218.44" width="0.1524" layer="91"/>
-<label x="208.28" y="218.44" size="0.8128" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP3" gate="A" pin="6"/>
+<wire x1="203.2" y1="231.14" x2="208.28" y2="231.14" width="0.1524" layer="91"/>
+<label x="208.28" y="231.14" size="0.8128" layer="95" rot="MR180" xref="yes"/>
+<pinref part="JP3" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="R3" class="0">
@@ -9468,6 +9504,23 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <pinref part="GND53" gate="1" pin="GND"/>
 <wire x1="668.02" y1="88.9" x2="668.02" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="EARTH"/>
+<wire x1="607.06" y1="226.06" x2="607.06" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="EARTH"/>
+<wire x1="607.06" y1="220.98" x2="632.46" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="632.46" y1="220.98" x2="632.46" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="632.46" y1="210.82" x2="632.46" y2="220.98" width="0.1524" layer="91"/>
+<junction x="632.46" y="220.98"/>
+<pinref part="J9" gate="G$1" pin="EARTH"/>
+<wire x1="660.4" y1="226.06" x2="660.4" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="EARTH"/>
+<wire x1="660.4" y1="220.98" x2="685.8" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="685.8" y1="220.98" x2="685.8" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="632.46" y1="220.98" x2="660.4" y2="220.98" width="0.1524" layer="91"/>
+<junction x="660.4" y="220.98"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -9512,6 +9565,11 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <pinref part="J1" gate="G$1" pin="14"/>
 <wire x1="177.8" y1="228.6" x2="175.26" y2="228.6" width="0.1524" layer="91"/>
 <junction x="177.8" y="228.6"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="88.9" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="299.72" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12" class="0">
@@ -9614,18 +9672,6 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <pinref part="JP3" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="2" class="0">
-<segment>
-<wire x1="203.2" y1="220.98" x2="208.28" y2="220.98" width="0.1524" layer="91"/>
-<label x="208.28" y="220.98" size="0.8128" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP3" gate="A" pin="5"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="88.9" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
-<label x="299.72" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="0" class="0">
 <segment>
 <wire x1="203.2" y1="223.52" x2="208.28" y2="223.52" width="0.1524" layer="91"/>
@@ -9638,13 +9684,6 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <wire x1="203.2" y1="228.6" x2="208.28" y2="228.6" width="0.1524" layer="91"/>
 <label x="208.28" y="228.6" size="0.8128" layer="95" rot="MR180" xref="yes"/>
 <pinref part="JP3" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="16" class="0">
-<segment>
-<wire x1="203.2" y1="231.14" x2="208.28" y2="231.14" width="0.1524" layer="91"/>
-<label x="208.28" y="231.14" size="0.8128" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP3" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10076,6 +10115,71 @@ This is just like the LOCK variant in that the holes are staggared by 5 mil, but
 <pinref part="LED21" gate="G$1" pin="DO"/>
 <pinref part="LED22" gate="G$1" pin="DI"/>
 <wire x1="619.76" y1="96.52" x2="655.32" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="RING1"/>
+<wire x1="604.52" y1="226.06" x2="604.52" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="RING1"/>
+<wire x1="604.52" y1="218.44" x2="629.92" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="218.44" x2="629.92" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="RING1"/>
+<wire x1="657.86" y1="226.06" x2="657.86" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="RING1"/>
+<wire x1="657.86" y1="218.44" x2="683.26" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="683.26" y1="218.44" x2="683.26" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="629.92" y1="218.44" x2="657.86" y2="218.44" width="0.1524" layer="91"/>
+<junction x="629.92" y="218.44"/>
+<junction x="657.86" y="218.44"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="TIP"/>
+<wire x1="599.44" y1="226.06" x2="599.44" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="TIP"/>
+<wire x1="599.44" y1="215.9" x2="624.84" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="624.84" y1="215.9" x2="624.84" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="TIP"/>
+<wire x1="652.78" y1="226.06" x2="652.78" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="TIP"/>
+<wire x1="652.78" y1="215.9" x2="678.18" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="678.18" y1="215.9" x2="678.18" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="624.84" y1="215.9" x2="652.78" y2="215.9" width="0.1524" layer="91"/>
+<junction x="624.84" y="215.9"/>
+<junction x="652.78" y="215.9"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="RING2"/>
+<wire x1="596.9" y1="226.06" x2="596.9" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="RING2"/>
+<wire x1="596.9" y1="213.36" x2="622.3" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="622.3" y1="213.36" x2="622.3" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J9" gate="G$1" pin="RING2"/>
+<wire x1="650.24" y1="226.06" x2="650.24" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="RING2"/>
+<wire x1="650.24" y1="213.36" x2="675.64" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="675.64" y1="213.36" x2="675.64" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="622.3" y1="213.36" x2="650.24" y2="213.36" width="0.1524" layer="91"/>
+<junction x="622.3" y="213.36"/>
+<junction x="650.24" y="213.36"/>
+</segment>
+</net>
+<net name="6" class="0">
+<segment>
+<wire x1="203.2" y1="218.44" x2="208.28" y2="218.44" width="0.1524" layer="91"/>
+<label x="208.28" y="218.44" size="0.8128" layer="95" rot="MR180" xref="yes"/>
+<pinref part="JP3" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="7" class="0">
+<segment>
+<wire x1="203.2" y1="215.9" x2="208.28" y2="215.9" width="0.1524" layer="91"/>
+<label x="208.28" y="215.9" size="0.8128" layer="95" rot="MR180" xref="yes"/>
+<pinref part="JP3" gate="A" pin="7"/>
 </segment>
 </net>
 </nets>
