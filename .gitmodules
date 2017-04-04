@@ -4,3 +4,6 @@
 [submodule "cad/cherry-mx-switch"]
 	path = CAD/cherry-mx-switch
 	url = git@github.com:ConstantinoSchillebeeckx/cherry-mx-switch.git
+[submodule "eagle/cherrymx-eagle"]
+	path = eagle/cherrymx-eagle
+	url = git@github.com:ConstantinoSchillebeeckx/cherrymx-eagle.git
