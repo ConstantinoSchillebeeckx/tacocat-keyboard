@@ -48,3 +48,10 @@ https://geekhack.org/index.php?topic=48718
 
 http://pimpmykeyboard.com/dsa-granite-keyset/
 http://pimpmykeyboard.com/dsa-quartz-keycap-set/
+
+
+## Resource
+
+[keyboard layout](http://www.keyboard-layout-editor.com/)
+[case builder](http://builder.swillkb.com/)
+[firmware builder](http://qmk.sized.io/)
