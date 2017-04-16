@@ -25,6 +25,8 @@ Also:
 
 The items listed below are for two keyboard halves; an [online BOM](https://www.digikey.com/classic/RegisteredUser/BOMBillOfMaterials.aspx?path=1&exist=1&id=5155922) has also been generated for ease of purchase.
 
+**NOTE:** the list below includes various USB & TRRS jacks needed to build custom cables for the project, however the list does not include the wires needed to build the cables.
+
 Item | Quantity | Link
 --- | --- | ---
 LED | 44 | [digikey](https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679)
