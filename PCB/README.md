@@ -35,7 +35,6 @@ TRRS jack | 4 | [digikey](https://www.digikey.com/product-detail/en/cui-inc/SJ2-
 male I2C | 1 | [digikey](https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/829-22-005-20-001101/ED90506-ND/2416226)
 female I2C | 1 | [digikey](https://www.digikey.com/product-detail/en/mill-max-manufacturing-corp/399-10-105-10-008000/ED8305-ND/4456255)
 USB jack female | 2 | [digikey](https://www.digikey.com/product-detail/en/cui-inc/UJ2-MIBH2-4-SMT-TR/102-4007-1-ND/6187929)
-USB jack male | 2 | [digikey](https://www.digikey.com/product-detail/en/adafruit-industries-llc/1390/1528-1182-ND/5353642)
 battery jack | 2 | [digikey](https://www.digikey.com/product-detail/en/jst-sales-america-inc/S2B-PH-SM4-TB(LF)(SN)/455-1749-1-ND/926846)
 ESP32 board | 2 | [digikey](https://www.digikey.com/product-detail/en/sparkfun-electronics/DEV-13907/1568-1444-ND/6419476)
 capacitor | 44 | [digikey](https://www.digikey.com/product-detail/en/avx-corporation/SR205E104MAR/478-3192-ND/936834)
