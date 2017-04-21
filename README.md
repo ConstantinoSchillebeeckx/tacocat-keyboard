@@ -1,6 +1,6 @@
 # tacocat keyboard
 
-<img src="assets/img/tacocat.png" style="float: right;" align='right' width=150/>
+<img src="assets/img/tacocat.png" width=150/>
 
 
 <p align="center">
@@ -9,7 +9,6 @@
 <br>
 <br>
 
-<div style="clear: right">
 Another split ergonomic keyboard with features:
 - two symmetric keyboard halves staggered in opposite directions
 - wireless or powered operation
@@ -20,5 +19,3 @@ Another split ergonomic keyboard with features:
 Please visit the [wiki](https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/wiki) for full documentation and build logs.
 
 <img src="assets/img/render_left.png" />
-
-</div>
