@@ -8,6 +8,8 @@
 </p>
 <br>
 <br>
+
+<div style="clear: right">
 Another split ergonomic keyboard with features:
 - two symmetric keyboard halves staggered in opposite directions
 - wireless or powered operation
@@ -18,3 +20,5 @@ Another split ergonomic keyboard with features:
 Please visit the [wiki](https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/wiki) for full documentation and build logs.
 
 <img src="assets/img/render_left.png" />
+
+</div>
