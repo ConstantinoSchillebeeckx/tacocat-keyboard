@@ -1,6 +1,6 @@
 # tacocat keyboard
 
-<img src="assets/img/tacocat.png" width=150/>
+<img src="assets/img/tacocat.png" align='right' width=150/>
 
 
 <p align="center">
