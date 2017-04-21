@@ -4,7 +4,7 @@
 
 ---
 
-:construction: this repo is still in progress!
+:construction: this repo is still in progress of being completed :construction:
 
 ---
 
