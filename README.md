@@ -3,7 +3,9 @@
 <img src="assets/img/tacocat.png" width=150/>
 
 ---
+
 :construction: this repo is still in progress!
+
 ---
 
 Another split ergonomic keyboard with features:
