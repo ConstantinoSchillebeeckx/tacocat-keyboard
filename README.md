@@ -6,8 +6,8 @@
 <p align="center">
 :construction: this repo is still in progress of being completed :construction:
 </p>
-
-
+<br>
+<br>
 Another split ergonomic keyboard with features:
 - two symmetric keyboard halves staggered in opposite directions
 - wireless or powered operation
