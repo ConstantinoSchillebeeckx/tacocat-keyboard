@@ -1,6 +1,6 @@
 # tacocat keyboard
 
-<img src="assets/img/tacocat.png" width=150/>
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/tacocat.png" width=150/>
 
 
 <p align="center">
@@ -18,4 +18,5 @@ Another split ergonomic keyboard with features:
 
 Please visit the [wiki](https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/wiki) for full documentation and build logs.
 
-<img src="assets/img/render_left.png" />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/render_left.png" />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/render_right.png" />
