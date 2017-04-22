@@ -47,12 +47,12 @@ LIPO | 2 | [digikey](https://www.digikey.com/product-detail/en/sparkfun-electron
 
 #### Circuit schematic
 
-<img src="../assets/img/circuit_layout.png" width=500 />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/circuit_layout.png" width=500 />
 
 #### PCB top
 
-<img src="../assets/img/pcb_top.png" width=500 />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/pcb_top.png" width=500 />
 
 #### PCB bottom
 
-<img src="../assets/img/pcb_bottom.png" width=500 />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/pcb_top.png" width=500 />
