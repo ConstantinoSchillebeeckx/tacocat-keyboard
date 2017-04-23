@@ -18,5 +18,4 @@ Another split ergonomic keyboard with features:
 
 Please visit the [wiki](https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/wiki) for full documentation and build logs.
 
-<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/render_left.png" />
-<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/render_right.png" />
+<img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/render_full.png" />
