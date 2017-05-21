@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // led pin
-#define PIN 4
+#define PIN 13 // 4 or 13
 
 // number of LEDS
 #define NUMPIXELS      22
