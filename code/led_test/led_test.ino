@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 // led pin
-#define PIN 13 // 4 or 13
+#define PIN 13 // 4 (R) or 13 (L)
 
 // number of LEDS
 #define NUMPIXELS      22
@@ -14,9 +14,11 @@ int b;
 int g;
 
 int delayval = 50; 
+int counter = 0;
 
 void setup() {
   pixels.begin(); // This initializes the NeoPixel library.
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -24,6 +26,20 @@ void loop() {
   r = random(0,150);
   b = random(0,150);
   g = random(0,150);
+
+  /*
+ * Colors that flicker (r,g,b)
+ * 14,14,14
+ * 124,141,142
+ * flickering only occurs when no LiPo battery hooked up
+ */
+ 
+
+  Serial.print(r);
+  Serial.print(' ');
+  Serial.print(g);
+  Serial.print(' ');
+  Serial.println(b);
 
   for(int i=0;i<NUMPIXELS;i++){
 
@@ -35,4 +51,8 @@ void loop() {
     delay(delayval); 
 
   }
+
+  delay(20);
+
+  counter++;
 }

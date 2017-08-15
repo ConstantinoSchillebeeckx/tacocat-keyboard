@@ -1,0 +1,17 @@
+library/net.o: \
+ /Users/constantino/esp/esp-idf/components/mbedtls/library/net.c \
+ /Users/constantino/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /Users/constantino/Documents/tacocat-keyboard/code/tmp/build/include/sdkconfig.h \
+ /Users/constantino/esp/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
+ /Users/constantino/esp/esp-idf/components/newlib/include/limits.h \
+ /Users/constantino/esp/esp-idf/components/newlib/include/newlib.h
+
+/Users/constantino/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/Users/constantino/Documents/tacocat-keyboard/code/tmp/build/include/sdkconfig.h:
+
+/Users/constantino/esp/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
+
+/Users/constantino/esp/esp-idf/components/newlib/include/limits.h:
+
+/Users/constantino/esp/esp-idf/components/newlib/include/newlib.h:
