@@ -8,16 +8,15 @@
 
 #include "Types.h"
 #include "USBCommunicator.h"
-// #include "I2CCommunicator.h"
+#include "I2CCommunicator.h"
 
 class MasterNotifier {
 private:
     bool is_master;
     USBCommunicator& usb_communicator;
-    // I2CCommunicator& i2c_communicator;
+    I2CCommunicator& i2c_communicator;
 public:
-	// MasterNotifier(USBCommunicator& usb, I2CCommunicator& i2c);
-	MasterNotifier(USBCommunicator& usb);
+	MasterNotifier(USBCommunicator& usb, I2CCommunicator& i2c);
 	uint8_t notify(const KeysDelta& key_changes, const KeysDelta& slave_key_changes);
 };
 

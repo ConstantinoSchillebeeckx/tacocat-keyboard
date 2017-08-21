@@ -6,16 +6,16 @@ import codecs
 import os
 import sys
 import threading
-from pykeyboard import PyKeyboard
+# from pykeyboard import PyKeyboard
 
 import serial
 from serial.tools.list_ports import comports
 from serial.tools import hexlify_codec
 
 port = '/dev/tty.usbserial-DN02P7CS'
-port = '/dev/cu.usbserial-DN02MPFQ'
+# port = '/dev/cu.usbserial-DN02MPFQ'
 baud = 115200
-kb = PyKeyboard()
+# kb = PyKeyboard()
 
 
 # pylint: disable=wrong-import-order,wrong-import-position
@@ -364,7 +364,7 @@ class Miniterm(object):
                         text = self.rx_decoder.decode(data)
                         for transformation in self.rx_transformations:
                             text = transformation.rx(text)
-                        kb.type_string(text) # TODO
+                        # kb.type_string(text) # TODO
                         self.console.write(text)
         except serial.SerialException:
             self.alive = False

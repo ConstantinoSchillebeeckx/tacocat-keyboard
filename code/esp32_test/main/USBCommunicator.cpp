@@ -4,12 +4,11 @@
 //  Responsible for communicating with the host PC (if one is attached)
 
 #include "USBCommunicator.h"
-extern "C"{
-// #include "device/usb_keyboard.h"
-}
+#include <stdio.h>
+#include "usb_keyboard.h"
 
 USBCommunicator::USBCommunicator(){
-    // usb_init(); //Turn on USB hardware
+    usb_init(); //Turn on USB hardware
 }
 
 //Sends all deltas in key_changes and slave_key_changes to the host PC.
@@ -20,25 +19,18 @@ uint8_t USBCommunicator::update(const KeysDelta& key_changes, const KeysDelta& s
         this->send_key_event(key_changes.deltas[i]);
         i++;
     }
-    i = 0;
-    while(slave_key_changes.deltas[i].delta != 0){
-        this->send_key_event(slave_key_changes.deltas[i]);
-        i++;
-    }
-    // usb_keyboard_send();
-    // return keyboard_leds;
-	return 1;
+	usb_keyboard_send();
+    return keyboard_leds;
 }
 
 //Returns true if a host PC is attached
 bool USBCommunicator::is_connected(){
-    // return usb_configured() != 0;
-	return true;
+    return usb_configured() != 0;
 }
 
 void USBCommunicator::send_key_event(const KeyDelta& event){
-    // if(event.delta > 0) usb_press(event.key);
-    // if(event.delta < 0) usb_release(event.key);
+    if(event.delta > 0) usb_press(event.key);
+    if(event.delta < 0) usb_release(event.key);
 }
 
 

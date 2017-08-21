@@ -6,8 +6,7 @@
 #include "MasterNotifier.h"
 
 
-// MasterNotifier::MasterNotifier(USBCommunicator& usb, I2CCommunicator& i2c):usb_communicator(usb),i2c_communicator(i2c){
-MasterNotifier::MasterNotifier(USBCommunicator& usb):usb_communicator(usb){
+MasterNotifier::MasterNotifier(USBCommunicator& usb, I2CCommunicator& i2c):usb_communicator(usb),i2c_communicator(i2c){
     while(!usb_communicator.is_connected()){}
 
     //We are connected via USB

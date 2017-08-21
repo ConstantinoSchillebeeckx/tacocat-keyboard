@@ -7,7 +7,6 @@
    CONDITIONS OF ANY KIND, either express or implied.
 */
 
-#include <esp_log.h>
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -19,20 +18,19 @@
 #include "ButtonDeltaDetector.h"
 #include "HardwareController.h"
 #include "MasterNotifier.h"
-// #include "comms/SlaveNotifier.h"
-// #include "comms/I2CCommunicator.h"
+#include "SlaveNotifier.h"
+#include "I2CCommunicator.h"
 #include "USBCommunicator.h"
 #include "KeyMapper.h"
-
-static const char* TAG = "tacocat";
-
 
 
 void tacocat(void *pvParameter)
 {
-	// I2CCommunicator i2c_communicator; //Start I2C in slave mode
+	I2CCommunicator i2c_communicator; //Start I2C in slave mode
 	USBCommunicator usb_communicator; //Start USB hardware
 
+	//Holds information from the master about the state of the indicator LEDs
+	uint8_t led_status = 0;
 	//Manages hardware functions, including scanning keys. Constructor configures hardware.
 	HardwareController      hardware;
 	//Manages debouncing buttons. The argument is the number of samples needed to detect a change in state.
@@ -42,10 +40,9 @@ void tacocat(void *pvParameter)
 	//Maps physical button deltas to USB key deltas. This is where to look if you want to change the key layout.
 	KeyMapper               key_mapper;
 	//Talks to the computer over USB or the masterboard over I2C. Constructor hangs until a master is found (either USB or I2C)
-	// MasterNotifier          master(usb_communicator, i2c_communicator);
-	MasterNotifier          master(usb_communicator);
+	MasterNotifier          master(usb_communicator, i2c_communicator);
 	//Represents the slave, if one exists. Acts as a dummy slave otherwise. Tries to connect to slave during construction.
-	// SlaveNotifier           slave(i2c_communicator);
+	SlaveNotifier           slave(i2c_communicator);
 
 
 	while(1) {
@@ -54,23 +51,24 @@ void tacocat(void *pvParameter)
 		ButtonsDelta button_changes = push_detector.update(debounced_state);
 		KeysDelta key_changes = key_mapper.resolve(button_changes);
 
-		for(uint8_t i = 0; i < 64; i++) {
-			if (button_changes.deltas[i] != 0) {
-				ESP_LOGW(TAG, "%i, %i, %i %i",
-				i, button_changes.deltas[i],
-				key_changes.deltas[i].delta, key_changes.deltas[i].key);
-			}
-		}
-
-
 		//If we don't have a slave, this returns a KeysDelta full of zeros
 		// KeysDelta slave_key_changes = slave.update(led_status);
+		KeysDelta slave_key_changes;
+
+		// for(uint8_t i = 0; i < 64; i++) {
+		// 	if (button_changes.deltas[i] != 0) {
+		// 		ESP_LOGW(TAG, "%i, %i, %i %i",
+		// 		i, button_changes.deltas[i],
+		// 		key_changes.deltas[i].delta, key_changes.deltas[i].key);
+		// 	}
+		// }
+
 
 		//Sends all key press/release events to the USB or I2C master and
 		//returns the state of the keyboard LEDs, as reported by the master
-		// led_status = master.notify(key_changes, slave_key_changes);
+		led_status = master.notify(key_changes, slave_key_changes);
 	}
-    esp_restart();
+	esp_restart();
 }
 
 
