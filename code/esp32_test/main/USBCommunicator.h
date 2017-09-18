@@ -13,9 +13,8 @@ public:
     USBCommunicator();
     //Sends any USB key press events to the master. Returns the LED status.
     uint8_t update(const KeysDelta& key_changes, const KeysDelta& slave_key_changes);
-    bool is_connected();
+    bool is_master();
     void send_key_event(const KeyDelta& event);
-    void turn_off();
 };
 
 #endif /* defined(____USBCommunicator__) */

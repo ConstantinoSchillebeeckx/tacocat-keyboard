@@ -19,25 +19,26 @@ uint8_t USBCommunicator::update(const KeysDelta& key_changes, const KeysDelta& s
         this->send_key_event(key_changes.deltas[i]);
         i++;
     }
+	i = 0;
+	while(slave_key_changes.deltas[i].delta != 0){
+		this->send_key_event(slave_key_changes.deltas[i]);
+		i++;
+	}
 	usb_keyboard_send();
     return keyboard_leds;
 }
 
-//Returns true if a host PC is attached
-bool USBCommunicator::is_connected(){
-    return usb_configured() != 0;
+//Returns true ESP32 is master (connected to PC)
+// we can't check whether the usb
+// is properly connected, so instead
+// we return 1 if the keyboard is the master
+// or 0 if we are the slave
+bool USBCommunicator::is_master(){
+	return true; // NOTE must be updated based on whether this is the slave or master
+	// return false; // NOTE must be updated based on whether this is the slave or master
 }
 
 void USBCommunicator::send_key_event(const KeyDelta& event){
     if(event.delta > 0) usb_press(event.key);
     if(event.delta < 0) usb_release(event.key);
-}
-
-
-//Disable USB hardware to save power. Can be used if we're not connected via USB
-void USBCommunicator::turn_off(){
-    // UDCON = 1<<DETACH; //Detach data pins
-    // USBCON = 1<<FRZCLK; //disable USB controller
-    // PLLCSR &= ~(1<<PLLE); //disable PLL
-    // UHWCON &= ~(1<<UVREGE);//Disable USB power regulator
 }

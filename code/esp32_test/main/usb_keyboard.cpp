@@ -21,19 +21,15 @@
  * THE SOFTWARE.
  */
 
-// Version 1.0: Initial Release
-// Version 1.1: Add support for Teensy 2.0
 
-#define USB_SERIAL_PRIVATE_INCLUDE
 #include <esp_log.h>
 #include <stdio.h>
-#include "usb_keyboard.h"
 #include <bitset>
 #include <iostream>
+#include "usb_keyboard.h"
+#include "KeyMapper.h"
 
 
-// zero when we are not configured, non-zero when enumerated
-static volatile uint8_t usb_configuration=0;
 
 
 // we send this to the host, to be processed by python script
@@ -67,17 +63,9 @@ void usb_init(void)
 {
 }
 
-// return 0 if the USB is not configured, or the configuration
-// number selected by the HOST
-uint8_t usb_configured(void) {
-	return 1;
-	// return usb_configuration;
-}
-
-
 
 // send the contents of keyboard_keys and keyboard_modifier_keys
-// https://folk.uio.no/jeanra/Microelectronics/TransmitStructArduinoPython.html
+// to the host computer to be parsed by the python script
 int8_t usb_keyboard_send(void)
 {
 
@@ -85,32 +73,11 @@ int8_t usb_keyboard_send(void)
 	for(unsigned char i=0; i<6; i++){
 		std::string binary = std::bitset<8>(to_send.keyboard_keys[i]).to_string();
 		std::cout<<binary;
-		// printf("%i", to_send.keyboard_keys[i]);
 	}
 	printf("\n");
 
 	return 0;
 }
-
-
-// Misc functions to wait for ready and send/receive packets
-static inline void usb_wait_in_ready(void)
-{
-	// while (!(UEINTX & (1<<TXINI))) ;
-}
-static inline void usb_send_in(void)
-{
-	// UEINTX = ~(1<<TXINI);
-}
-static inline void usb_wait_receive_out(void)
-{
-	// while (!(UEINTX & (1<<RXOUTI))) ;
-}
-static inline void usb_ack_out(void)
-{
-	// UEINTX = ~(1<<RXOUTI);
-}
-
 
 
 
@@ -136,7 +103,6 @@ void usb_press_standard_key(uint8_t key){
     }
     for(unsigned char i=0; i<6; i++){
         if(to_send.keyboard_keys[i] == 0){ //Found a free space to put the key in
-			// printf("press %i\n", key);
             to_send.keyboard_keys[i] = key;
             return;
         }

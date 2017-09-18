@@ -52,17 +52,17 @@ void tacocat(void *pvParameter)
 		KeysDelta key_changes = key_mapper.resolve(button_changes);
 
 		//If we don't have a slave, this returns a KeysDelta full of zeros
-		// KeysDelta slave_key_changes = slave.update(led_status);
-		KeysDelta slave_key_changes;
-
+		KeysDelta slave_key_changes = slave.update(led_status);
+		// KeysDelta slave_key_changes;
+		//
 		// for(uint8_t i = 0; i < 64; i++) {
 		// 	if (button_changes.deltas[i] != 0) {
-		// 		ESP_LOGW(TAG, "%i, %i, %i %i",
+		// 		printf("%i, %i, %i, %i\n",
 		// 		i, button_changes.deltas[i],
 		// 		key_changes.deltas[i].delta, key_changes.deltas[i].key);
 		// 	}
 		// }
-
+		//
 
 		//Sends all key press/release events to the USB or I2C master and
 		//returns the state of the keyboard LEDs, as reported by the master

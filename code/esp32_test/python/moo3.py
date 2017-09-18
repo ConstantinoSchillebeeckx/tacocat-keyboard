@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # https://folk.uio.no/jeanra/Microelectronics/TransmitStructArduinoPython.html
 
+#=====================
+# THIS IS OLD use moo2
+#=====================
+
 import numpy as np
 import time, sys, struct
 from pykeyboard import PyKeyboard

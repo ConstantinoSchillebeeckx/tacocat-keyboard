@@ -26,13 +26,7 @@ KeysDelta SlaveNotifier::update(uint8_t led_status){
             if(event_count == 64) break; //We're full. Should never happen
         }
         //The slave is done sending us key events
-        if(count != 5) break;
-    }
-
-
-    if(this->old_led_status != led_status){
-        i2c_communicator.send_packet(LEDPacket(led_status));
-        this->old_led_status = led_status;
+        if(count != 5) break; // ???
     }
 
     return result;
