@@ -3,7 +3,7 @@ src/option/unicode.o: \
  /Users/constantino/esp/esp-idf/components/fatfs/src/option/../ff.h \
  /Users/constantino/esp/esp-idf/components/fatfs/src/option/../integer.h \
  /Users/constantino/esp/esp-idf/components/fatfs/src/option/../ffconf.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/reent.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/_ansi.h \
@@ -58,7 +58,7 @@ src/option/unicode.o: \
 
 /Users/constantino/esp/esp-idf/components/fatfs/src/option/../ffconf.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

@@ -24,7 +24,7 @@ src/flash_partitions.o: \
  /Users/constantino/esp/esp-idf/components/newlib/include/assert.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_flash_data_types.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_assert.h \
@@ -81,7 +81,7 @@ src/flash_partitions.o: \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

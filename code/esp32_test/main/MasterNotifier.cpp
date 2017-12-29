@@ -26,9 +26,6 @@ uint8_t MasterNotifier::notify(const KeysDelta& key_changes, const KeysDelta& sl
     uint8_t led_status;
 
     //If we are connected via USB
-    // led_status = this->usb_communicator.update(key_changes, slave_key_changes);
-
-    //If we are connected via USB
     if(this->is_master) {
 		led_status = this->usb_communicator.update(key_changes, slave_key_changes);
 	} else {

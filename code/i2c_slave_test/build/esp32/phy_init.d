@@ -62,7 +62,7 @@ phy_init.o: /Users/constantino/esp/esp-idf/components/esp32/./phy_init.c \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/nvs_flash/include/nvs.h \
  /Users/constantino/esp/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /Users/constantino/esp/esp-idf/components/esp32/./phy.h \
@@ -195,7 +195,7 @@ phy_init.o: /Users/constantino/esp/esp-idf/components/esp32/./phy_init.c \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/nvs_flash/include/nvs.h:
 

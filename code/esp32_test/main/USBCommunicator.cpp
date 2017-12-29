@@ -7,7 +7,8 @@
 #include <stdio.h>
 #include "usb_keyboard.h"
 
-USBCommunicator::USBCommunicator(){
+USBCommunicator::USBCommunicator(bool is_master){
+	this->_is_master = is_master;
     usb_init(); //Turn on USB hardware
 }
 
@@ -34,8 +35,7 @@ uint8_t USBCommunicator::update(const KeysDelta& key_changes, const KeysDelta& s
 // we return 1 if the keyboard is the master
 // or 0 if we are the slave
 bool USBCommunicator::is_master(){
-	return true; // NOTE must be updated based on whether this is the slave or master
-	// return false; // NOTE must be updated based on whether this is the slave or master
+	return this->_is_master;
 }
 
 void USBCommunicator::send_key_event(const KeyDelta& event){

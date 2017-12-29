@@ -9,7 +9,7 @@ spi_flash_rom_patch.o: \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/rom/spi_flash.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/../include/sdkconfig.h
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/bootloader/../include/sdkconfig.h
 
 /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -29,4 +29,4 @@ spi_flash_rom_patch.o: \
 
 /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/spi_reg.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/../include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/bootloader/../include/sdkconfig.h:

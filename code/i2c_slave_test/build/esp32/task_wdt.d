@@ -23,7 +23,7 @@ task_wdt.o: /Users/constantino/esp/esp-idf/components/esp32/./task_wdt.c \
  /Users/constantino/esp/esp-idf/components/newlib/include/alloca.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/string.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/string.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -120,7 +120,7 @@ task_wdt.o: /Users/constantino/esp/esp-idf/components/esp32/./task_wdt.c \
 
 /Users/constantino/esp/esp-idf/components/newlib/include/sys/string.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

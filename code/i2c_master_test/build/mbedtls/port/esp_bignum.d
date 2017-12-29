@@ -29,7 +29,7 @@ port/esp_bignum.o: \
  /Users/constantino/esp/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
  /Users/constantino/esp/esp-idf/components/mbedtls/include/mbedtls/bignum.h \
  /Users/constantino/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/stdint.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -146,7 +146,7 @@ port/esp_bignum.o: \
 
 /Users/constantino/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 

@@ -31,7 +31,7 @@ libcoap/src/block.o: \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/stat.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_task.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  /Users/constantino/esp/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  /Users/constantino/esp/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -156,7 +156,7 @@ libcoap/src/block.o: \
 
 /Users/constantino/esp/esp-idf/components/esp32/include/esp_task.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 

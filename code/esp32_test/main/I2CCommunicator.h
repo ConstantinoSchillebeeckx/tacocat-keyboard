@@ -48,7 +48,7 @@ private:
     bool has_slave;
 public:
     //Starts I2C in slave mode.
-    I2CCommunicator();
+    I2CCommunicator(bool is_master);
     //Assumes master status
     void become_master();
     //Sends a packet (to the master or slave)
@@ -56,7 +56,7 @@ public:
     //If we're the slave, this blocks until the master recieves the packet
     // bool send_packet(const Packet& packet);
     //Requests a packet (from the slave)
-    Packet request_packet();
+    KeysDelta request_packet();
     //Returns true if we are the I2C master
     bool is_master();
     //Send any key changes to the master. Returns the LED status.

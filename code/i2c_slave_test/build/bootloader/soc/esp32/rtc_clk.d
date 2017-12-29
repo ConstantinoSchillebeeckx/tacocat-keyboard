@@ -24,7 +24,7 @@ esp32/rtc_clk.o: \
  /Users/constantino/esp/esp-idf/components/soc/esp32/i2c_bbpll.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/soc_log.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/../include/sdkconfig.h
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/../include/sdkconfig.h
 
 /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 
@@ -74,4 +74,4 @@ esp32/rtc_clk.o: \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/../include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/../include/sdkconfig.h:

@@ -38,7 +38,7 @@ emac_dev.o: \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/emac_reg_v2.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/emac_ex_reg.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/driver/include/driver/gpio.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_err.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_types.h \
@@ -125,7 +125,7 @@ emac_dev.o: \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/driver/include/driver/gpio.h:
 

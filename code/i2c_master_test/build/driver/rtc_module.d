@@ -25,7 +25,7 @@ rtc_module.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_assert.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/assert.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/sens_reg.h \
@@ -126,7 +126,7 @@ rtc_module.o: \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
 

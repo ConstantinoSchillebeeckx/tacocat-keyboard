@@ -1,174 +1,174 @@
 Archive member included to satisfy reference by file (symbol)
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                               (call_start_cpu0)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_random_enable)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load_header)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_clk_slow_freq_get)
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_random_enable)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load_header)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_clk_slow_freq_get)
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
-                              /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o) (__udivdi3)
+                              /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o) (__udivdi3)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                    0x4               /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.lit        0x0000000000000000       0x70 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.prop       0x0000000000000000      0x780 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- COMMON         0x0000000000000000        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x0000000000000000       0x70 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x0000000000000000      0x780 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x0000000000000000        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.bootloader_flash_write
-                0x0000000000000000       0x40 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x40 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
-                0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x0000000000000000       0xb2 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0xb2 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
-                0x0000000000000000       0x16 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x0000000000000000       0x40 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x0000000000000000      0x360 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x16 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x0000000000000000       0x40 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x0000000000000000      0x360 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_fill_random
-                0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .text.bootloader_fill_random
-                0x0000000000000000       0x59 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.lit        0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.prop       0x0000000000000000       0xd8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x0000000000000000      0x2d0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x0000000000000000       0xe4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000000       0x59 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.lit        0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.prop       0x0000000000000000       0xd8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x0000000000000000      0x2d0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x0000000000000000       0xe4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .literal.esp_log_buffer_hex
-                0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .literal.esp_log_buffer_char
-                0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .rodata.str1.4
-                0x0000000000000000        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_hex
-                0x0000000000000000       0x54 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x54 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .text.esp_log_buffer_char
-                0x0000000000000000       0x4c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .xt.lit        0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .xt.prop       0x0000000000000000       0xd8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000000       0x4c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x0000000000000000       0xd8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .literal.spi_cache_mode_switch
-                0x0000000000000000       0x38 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x38 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_lock
-                0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_chip
-                0x0000000000000000        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.esp_rom_spiflash_erase_area
-                0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.spi_cache_mode_switch
-                0x0000000000000000      0x266 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000      0x266 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip_internal
-                0x0000000000000000       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block_internal
-                0x0000000000000000       0x3c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x3c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_lock
-                0x0000000000000000       0x4e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x4e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0xa0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xa0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .rodata.esp_rom_spiflash_config_readmode
-                0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_chip
-                0x0000000000000000       0x24 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x24 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_block
-                0x0000000000000000       0x66 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x66 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_write_encrypted
-                0x0000000000000000       0x5a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x5a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_erase_area
-                0x0000000000000000       0xbe /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.lit        0x0000000000000000       0xa8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.prop       0x0000000000000000      0xb1c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0xbe /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.lit        0x0000000000000000       0xa8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.prop       0x0000000000000000      0xb1c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .literal.rtc_clk_32k_bootstrap
-                0x0000000000000000       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_32k_enabled
-                0x0000000000000000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_8m_enabled
-                0x0000000000000000        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_8md256_enabled
-                0x0000000000000000        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_apll_enable
-                0x0000000000000000       0x50 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x50 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_get
-                0x0000000000000000       0x28 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x28 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cpu_freq_value
-                0x0000000000000000       0x2c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x2c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_bootstrap
-                0x0000000000000000       0x3c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x3c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_32k_enabled
-                0x0000000000000000       0x1a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x1a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_8m_enabled
-                0x0000000000000000       0x19 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x19 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_8md256_enabled
-                0x0000000000000000       0x1a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x1a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_apll_enable
-                0x0000000000000000      0x162 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000      0x162 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_slow_freq_get_hz
-                0x0000000000000000       0x29 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x29 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_get
-                0x0000000000000000       0x94 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x94 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.rtc_clk_cpu_freq_value
-                0x0000000000000000       0x45 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x45 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.rtc_clk_cpu_freq_value
-                0x0000000000000000       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.__func__$2150
-                0x0000000000000000       0x17 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x17 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .rodata.__func__$2135
-                0x0000000000000000       0x15 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.lit        0x0000000000000000       0xb8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xt.prop       0x0000000000000000      0x96c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000000       0x15 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.lit        0x0000000000000000       0xb8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.prop       0x0000000000000000      0x96c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_cal
-                0x0000000000000000        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_us_to_slowclk
-                0x0000000000000000        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .literal.rtc_time_get
-                0x0000000000000000       0x18 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
- .text          0x0000000000000000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x18 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text          0x0000000000000000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_clk_cal
-                0x0000000000000000       0x52 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x52 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_us_to_slowclk
-                0x0000000000000000       0x1f /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1f /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_slowclk_to_us
-                0x0000000000000000       0x1c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x1c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .text.rtc_time_get
-                0x0000000000000000       0x50 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.lit        0x0000000000000000       0x28 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
- .xt.prop       0x0000000000000000      0x210 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000000       0x50 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.lit        0x0000000000000000       0x28 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.prop       0x0000000000000000      0x210 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .eh_frame      0x0000000000000000       0x28 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
  .xt.prop       0x0000000000000000      0x264 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
@@ -184,12 +184,12 @@ dram_seg         0x000000003fff0000 0x0000000000010000 rw
 Linker script and memory map
 
 START GROUP
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/micro-ecc/libmicro-ecc.a
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a
-LOAD /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/micro-ecc/libmicro-ecc.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a
+LOAD /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a
 LOAD /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
 LOAD /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
 END GROUP
@@ -206,9 +206,9 @@ END GROUP
                 0x0000000040080000                _iram_text_start = ABSOLUTE (.)
  *(.iram1 .iram1.*)
  .iram1.literal
-                0x0000000040080000       0x34 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080000       0x34 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x44 (size before relaxing)
- .iram1         0x0000000040080034       0xc7 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .iram1         0x0000000040080034       0xc7 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xcb (size before relaxing)
                 0x0000000040080034                call_start_cpu0
                 0x00000000400800fb                _iram_text_end = ABSOLUTE (.)
@@ -226,18 +226,18 @@ END GROUP
  *(.gnu.linkonce.sb2.*)
  *(.dynbss)
  *(.bss)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .bss           0x000000003fff0000        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .bss           0x000000003fff0000        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .bss           0x000000003fff0000        0x0 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
  *(.bss.*)
- .bss.mapped    0x000000003fff0000        0x1 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss.mapped    0x000000003fff0000        0x1 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x000000003fff0008                . = ALIGN (0x8)
@@ -247,20 +247,20 @@ END GROUP
 .dram0.data     0x000000003fff0008        0x8
                 0x000000003fff0008                _data_start = ABSOLUTE (.)
  *(.data)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .data          0x000000003fff0008        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .data          0x000000003fff0008        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .data          0x000000003fff0008        0x0 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
  *(.data.*)
  .data.current_read_mapping
-                0x000000003fff0008        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data.TAG      0x000000003fff000c        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000003fff0008        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data.TAG      0x000000003fff000c        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x000000003fff000c                TAG
  *(.gnu.linkonce.d.*)
  *(.data1)
@@ -276,28 +276,28 @@ END GROUP
 .dram0.rodata   0x000000003fff0010      0xd64
                 0x000000003fff0010                _rodata_start = ABSOLUTE (.)
  *(.rodata)
- .rodata        0x000000003fff0010       0x1c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .rodata        0x000000003fff0010       0x1c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x000000003fff002c      0x4cf /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000003fff002c      0x4cf /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000003fff04fb        0x1 
  .rodata.str1.4
-                0x000000003fff04fc      0x28e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000003fff04fc      0x28e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x000000003fff078a        0x2 
  .rodata.str1.4
-                0x000000003fff078c        0x9 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000003fff078c        0x9 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  *fill*         0x000000003fff0795        0x3 
  .rodata.str1.4
-                0x000000003fff0798      0x282 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000003fff0798      0x282 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  *fill*         0x000000003fff0a1a        0x2 
  .rodata.str1.4
-                0x000000003fff0a1c       0xfb /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x000000003fff0a1c       0xfb /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  *fill*         0x000000003fff0b17        0x1 
  .rodata.str1.4
-                0x000000003fff0b18      0x1f8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0b18      0x1f8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1f5 (size before relaxing)
  .rodata.rtc_clk_xtal_freq_estimate
-                0x000000003fff0d10       0x64 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000003fff0d10       0x64 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.irom1.text)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
@@ -340,375 +340,375 @@ END GROUP
                 0x0000000040078000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
  .literal.wdt_reset_info_enable
-                0x0000000040078000        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078000        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.wdt_reset_info_dump
-                0x0000000040078008       0x60 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078008       0x60 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x6c (size before relaxing)
  .literal.clock_configure
-                0x0000000040078068       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078068       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x1c (size before relaxing)
  .literal.uart_console_configure
-                0x0000000040078078       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078078       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x18 (size before relaxing)
  .literal.wdt_reset_check
-                0x0000000040078088        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078088        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x30 (size before relaxing)
  .literal.ota_select_crc
-                0x0000000040078094        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078094        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.ota_select_valid
-                0x0000000040078098        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078098        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0x4 (size before relaxing)
  .literal.update_flash_config
-                0x0000000040078098       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078098       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.set_cache_and_start_app
-                0x00000000400780b8       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780b8       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x2c (size before relaxing)
  .literal.unpack_load_app
-                0x00000000400780c8       0x40 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780c8       0x40 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x90 (size before relaxing)
  .literal.load_partition_table
-                0x0000000040078108       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078108       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x30 (size before relaxing)
  .literal.print_flash_info
-                0x0000000040078118        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078118        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.bootloader_main
-                0x000000004007811c       0x34 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007811c       0x34 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xf4 (size before relaxing)
  .literal.spi_to_esp_err
-                0x0000000040078150        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078150        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x0000000040078158       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078158       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x0000000040078168        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078168        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x0000000040078168       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078168       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x000000004007817c        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000004007817c        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x0000000040078180        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078180        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_random_enable
-                0x000000004007818c       0x70 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000004007818c       0x70 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x78 (size before relaxing)
  .literal.bootloader_random_disable
-                0x00000000400781fc       0x1c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400781fc       0x1c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                                          0x4c (size before relaxing)
  .literal.esp_image_load_header
-                0x0000000040078218       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078218       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x34 (size before relaxing)
  .literal.esp_image_load_segment_header
-                0x000000004007822c        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x000000004007822c        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x28 (size before relaxing)
  .literal.esp_image_basic_verify
-                0x0000000040078238       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078238       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x5c (size before relaxing)
  .literal.esp_partition_table_basic_verify
-                0x0000000040078248       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040078248       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0x30 (size before relaxing)
  .literal.esp_log_early_timestamp
-                0x000000004007825c        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x000000004007825c        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .literal.esp_rom_spiflash_read_status
-                0x0000000040078264       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078264       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_wait_idle
-                0x0000000040078274        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078274        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_erase_sector_internal
-                0x000000004007827c        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007827c        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_read_data
-                0x0000000040078284        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078284        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x18 (size before relaxing)
  .literal.esp_rom_spiflash_enable_write
-                0x0000000040078290        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078290        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x10 (size before relaxing)
  .literal.esp_rom_spiflash_program_page_internal
-                0x0000000040078294        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078294        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x24 (size before relaxing)
  .literal.esp_rom_spiflash_read_statushigh
-                0x0000000040078298        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040078298        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                           0xc (size before relaxing)
  .literal.esp_rom_spiflash_write_status
-                0x000000004007829c        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007829c        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x14 (size before relaxing)
  .literal.esp_rom_spiflash_unlock
-                0x000000004007829c        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007829c        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_erase_sector
-                0x00000000400782a4       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400782a4       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x20 (size before relaxing)
  .literal.esp_rom_spiflash_write
-                0x00000000400782b4        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400782b4        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x28 (size before relaxing)
  .literal.esp_rom_spiflash_read
-                0x00000000400782b4       0x2c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400782b4       0x2c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x5c (size before relaxing)
  .literal.rtc_clk_32k_enable_internal
-                0x00000000400782e0       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400782e0       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x14 (size before relaxing)
  .literal.rtc_clk_xtal_freq_estimate
-                0x00000000400782f0       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x00000000400782f0       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x30 (size before relaxing)
  .literal.rtc_clk_32k_enable
-                0x0000000040078304        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078304        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_8m_enable
-                0x0000000040078308       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078308       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .literal.rtc_clk_slow_freq_set
-                0x0000000040078318        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078318        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_slow_freq_get
-                0x0000000040078318        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078318        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_fast_freq_set
-                0x0000000040078318        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078318        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0xc (size before relaxing)
  .literal.rtc_clk_fast_freq_get
-                0x0000000040078318        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078318        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x4 (size before relaxing)
  .literal.rtc_clk_bbpll_set
-                0x0000000040078318        0xc /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078318        0xc /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x30 (size before relaxing)
  .literal.rtc_clk_xtal_freq_get
-                0x0000000040078324        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078324        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x1c (size before relaxing)
  .literal.rtc_clk_xtal_freq_update
-                0x000000004007832c        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007832c        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_apb_freq_update
-                0x000000004007832c        0x4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007832c        0x4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_cpu_freq_set
-                0x0000000040078330       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078330       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x74 (size before relaxing)
  .literal.rtc_clk_apb_freq_get
-                0x0000000040078360        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078360        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                           0x8 (size before relaxing)
  .literal.rtc_clk_init
-                0x0000000040078360       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040078360       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x6c (size before relaxing)
  .literal.rtc_clk_cal_internal
-                0x0000000040078380       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000040078380       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x3c (size before relaxing)
  .literal.rtc_clk_cal_ratio
-                0x00000000400783a0        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x00000000400783a0        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
                                           0x8 (size before relaxing)
  .text.wdt_reset_info_enable
-                0x00000000400783a0       0x44 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400783a0       0x44 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .text.wdt_reset_info_dump
-                0x00000000400783e4       0xe6 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400783e4       0xe6 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x00000000400784ca        0x2 
  .text.clock_configure
-                0x00000000400784cc       0x66 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400784cc       0x66 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x6e (size before relaxing)
  *fill*         0x0000000040078532        0x2 
  .text.uart_console_configure
-                0x0000000040078534       0x36 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078534       0x36 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3a (size before relaxing)
  *fill*         0x000000004007856a        0x2 
  .text.wdt_reset_check
-                0x000000004007856c       0xa2 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007856c       0xa2 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xae (size before relaxing)
  *fill*         0x000000004007860e        0x2 
  .text.ota_select_crc
-                0x0000000040078610       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078610       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .text.ota_select_valid
-                0x0000000040078624       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078624       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x24 (size before relaxing)
  .text.update_flash_config
-                0x0000000040078644       0x68 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078644       0x68 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .text.set_cache_and_start_app
-                0x00000000400786ac       0xb3 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400786ac       0xb3 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  *fill*         0x000000004007875f        0x1 
  .text.unpack_load_app
-                0x0000000040078760      0x1c4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078760      0x1c4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                         0x1d8 (size before relaxing)
  .text.load_partition_table
-                0x0000000040078924       0xc9 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078924       0xc9 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xd1 (size before relaxing)
                 0x0000000040078924                load_partition_table
  *fill*         0x00000000400789ed        0x3 
  .text.print_flash_info
-                0x00000000400789f0        0xd /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400789f0        0xd /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                 0x00000000400789f0                print_flash_info
  *fill*         0x00000000400789fd        0x3 
  .text.bootloader_main
-                0x0000000040078a00      0x2db /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078a00      0x2db /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                         0x32a (size before relaxing)
                 0x0000000040078a00                bootloader_main
  *fill*         0x0000000040078cdb        0x1 
  .text.spi_to_esp_err
-                0x0000000040078cdc       0x22 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078cdc       0x22 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *fill*         0x0000000040078cfe        0x2 
  .text.bootloader_flash_read_allow_decrypt
-                0x0000000040078d00       0x97 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078d00       0x97 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x9b (size before relaxing)
  *fill*         0x0000000040078d97        0x1 
  .text.bootloader_flash_read_no_decrypt
-                0x0000000040078d98       0x32 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078d98       0x32 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x36 (size before relaxing)
  *fill*         0x0000000040078dca        0x2 
  .text.bootloader_mmap
-                0x0000000040078dcc       0xb1 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078dcc       0xb1 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0xb9 (size before relaxing)
                 0x0000000040078dcc                bootloader_mmap
  *fill*         0x0000000040078e7d        0x3 
  .text.bootloader_munmap
-                0x0000000040078e80       0x36 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078e80       0x36 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                 0x0000000040078e80                bootloader_munmap
  *fill*         0x0000000040078eb6        0x2 
  .text.bootloader_flash_read
-                0x0000000040078eb8       0x86 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078eb8       0x86 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                 0x0000000040078eb8                bootloader_flash_read
  *fill*         0x0000000040078f3e        0x2 
  .text.bootloader_random_enable
-                0x0000000040078f40      0x1d5 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040078f40      0x1d5 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x0000000040078f40                bootloader_random_enable
  *fill*         0x0000000040079115        0x3 
  .text.bootloader_random_disable
-                0x0000000040079118      0x11c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000040079118      0x11c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x0000000040079118                bootloader_random_disable
  .text.esp_image_load_header
-                0x0000000040079234       0x96 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079234       0x96 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x9e (size before relaxing)
                 0x0000000040079234                esp_image_load_header
  *fill*         0x00000000400792ca        0x2 
  .text.esp_image_load_segment_header
-                0x00000000400792cc       0xb9 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x00000000400792cc       0xb9 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0xc1 (size before relaxing)
                 0x00000000400792cc                esp_image_load_segment_header
  *fill*         0x0000000040079385        0x3 
  .text.esp_image_basic_verify
-                0x0000000040079388      0x1b6 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040079388      0x1b6 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                         0x1c6 (size before relaxing)
                 0x0000000040079388                esp_image_basic_verify
  *fill*         0x000000004007953e        0x2 
  .text.esp_partition_table_basic_verify
-                0x0000000040079540       0xb1 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040079540       0xb1 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0xb5 (size before relaxing)
                 0x0000000040079540                esp_partition_table_basic_verify
  *fill*         0x00000000400795f1        0x3 
  .text.esp_log_early_timestamp
-                0x00000000400795f4       0x14 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x00000000400795f4       0x14 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
                 0x00000000400795f4                esp_log_timestamp
                 0x00000000400795f4                esp_log_early_timestamp
  .text.esp_rom_spiflash_read_status
-                0x0000000040079608       0x61 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079608       0x61 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040079608                esp_rom_spiflash_read_status
  *fill*         0x0000000040079669        0x3 
  .text.esp_rom_spiflash_wait_idle
-                0x000000004007966c       0x32 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x000000004007966c       0x32 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x000000004007966c                esp_rom_spiflash_wait_idle
  *fill*         0x000000004007969e        0x2 
  .text.esp_rom_spiflash_erase_sector_internal
-                0x00000000400796a0       0x44 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400796a0       0x44 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .text.esp_rom_spiflash_read_data
-                0x00000000400796e4       0xe2 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400796e4       0xe2 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  *fill*         0x00000000400797c6        0x2 
  .text.esp_rom_spiflash_enable_write
-                0x00000000400797c8       0x39 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400797c8       0x39 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x3d (size before relaxing)
  *fill*         0x0000000040079801        0x3 
  .text.esp_rom_spiflash_program_page_internal
-                0x0000000040079804       0xea /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079804       0xea /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0xee (size before relaxing)
  *fill*         0x00000000400798ee        0x2 
  .text.esp_rom_spiflash_read_statushigh
-                0x00000000400798f0       0x21 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400798f0       0x21 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x00000000400798f0                esp_rom_spiflash_read_statushigh
  *fill*         0x0000000040079911        0x3 
  .text.esp_rom_spiflash_write_status
-                0x0000000040079914       0x34 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079914       0x34 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x38 (size before relaxing)
                 0x0000000040079914                esp_rom_spiflash_write_status
  .text.esp_rom_spiflash_unlock
-                0x0000000040079948       0x6a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079948       0x6a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x7e (size before relaxing)
                 0x0000000040079948                esp_rom_spiflash_unlock
  *fill*         0x00000000400799b2        0x2 
  .text.esp_rom_spiflash_erase_sector
-                0x00000000400799b4       0x61 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400799b4       0x61 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x65 (size before relaxing)
                 0x00000000400799b4                esp_rom_spiflash_erase_sector
  *fill*         0x0000000040079a15        0x3 
  .text.esp_rom_spiflash_write
-                0x0000000040079a18       0xc6 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079a18       0xc6 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0xca (size before relaxing)
                 0x0000000040079a18                esp_rom_spiflash_write
  *fill*         0x0000000040079ade        0x2 
  .text.esp_rom_spiflash_read
-                0x0000000040079ae0      0x284 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079ae0      0x284 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                 0x0000000040079ae0                esp_rom_spiflash_read
  .text.rtc_clk_32k_enable_internal
-                0x0000000040079d64       0x81 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079d64       0x81 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x0000000040079de5        0x3 
  .text.rtc_clk_xtal_freq_estimate
-                0x0000000040079de8       0x8a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079de8       0x8a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x0000000040079e72        0x2 
  .text.rtc_clk_32k_enable
-                0x0000000040079e74       0x2d /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079e74       0x2d /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079e74                rtc_clk_32k_enable
  *fill*         0x0000000040079ea1        0x3 
  .text.rtc_clk_8m_enable
-                0x0000000040079ea4       0x9d /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079ea4       0x9d /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079ea4                rtc_clk_8m_enable
  *fill*         0x0000000040079f41        0x3 
  .text.rtc_clk_slow_freq_set
-                0x0000000040079f44       0x27 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079f44       0x27 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079f44                rtc_clk_slow_freq_set
  *fill*         0x0000000040079f6b        0x1 
  .text.rtc_clk_slow_freq_get
-                0x0000000040079f6c       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079f6c       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079f6c                rtc_clk_slow_freq_get
  .text.rtc_clk_fast_freq_set
-                0x0000000040079f7c       0x2a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079f7c       0x2a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079f7c                rtc_clk_fast_freq_set
  *fill*         0x0000000040079fa6        0x2 
  .text.rtc_clk_fast_freq_get
-                0x0000000040079fa8       0x10 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079fa8       0x10 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                 0x0000000040079fa8                rtc_clk_fast_freq_get
  .text.rtc_clk_bbpll_set
-                0x0000000040079fb8      0x154 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000040079fb8      0x154 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x15c (size before relaxing)
                 0x0000000040079fb8                rtc_clk_bbpll_set
  .text.rtc_clk_xtal_freq_get
-                0x000000004007a10c       0x38 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a10c       0x38 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x3c (size before relaxing)
                 0x000000004007a10c                rtc_get_xtal
                 0x000000004007a10c                rtc_clk_xtal_freq_get
  .text.rtc_clk_xtal_freq_update
-                0x000000004007a144       0x12 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a144       0x12 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
                 0x000000004007a144                rtc_clk_xtal_freq_update
  *fill*         0x000000004007a156        0x2 
  .text.rtc_clk_apb_freq_update
-                0x000000004007a158       0x13 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a158       0x13 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
                 0x000000004007a158                rtc_clk_apb_freq_update
  *fill*         0x000000004007a16b        0x1 
  .text.rtc_clk_cpu_freq_set
-                0x000000004007a16c      0x1b4 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a16c      0x1b4 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x1c4 (size before relaxing)
                 0x000000004007a16c                rtc_clk_cpu_freq_set
  .text.rtc_clk_apb_freq_get
-                0x000000004007a320       0x13 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a320       0x13 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x16 (size before relaxing)
                 0x000000004007a320                rtc_clk_apb_freq_get
  *fill*         0x000000004007a333        0x1 
  .text.rtc_clk_init
-                0x000000004007a334      0x11e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a334      0x11e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                         0x13a (size before relaxing)
                 0x000000004007a334                rtc_clk_init
  *fill*         0x000000004007a452        0x2 
  .text.rtc_clk_cal_internal
-                0x000000004007a454      0x161 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007a454      0x161 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  *fill*         0x000000004007a5b5        0x3 
  .text.rtc_clk_cal_ratio
-                0x000000004007a5b8       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x000000004007a5b8       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
                                          0x24 (size before relaxing)
                 0x000000004007a5b8                rtc_clk_cal_ratio
  *fill*         0x000000004007a5d8        0x0 
@@ -741,11 +741,11 @@ END GROUP
  *fill*         0x000000004007a5d8        0x0 
  *fill*         0x000000004007a5d8        0x0 
  .text.clk_val_is_valid
-                0x000000004007a5d8       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a5d8       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.reg_val_to_clk_val
-                0x000000004007a5f8        0x8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a5f8        0x8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .text.clk_val_to_reg_val
-                0x000000004007a600        0xe /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a600        0xe /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *fill*         0x000000004007a60e        0x0 
  *fill*         0x000000004007a60e        0x0 
  *fill*         0x000000004007a60e        0x0 
@@ -2572,145 +2572,145 @@ END GROUP
                 [!provide]                        PROVIDE (UART2, 0x3ff6e000)
                 [!provide]                        PROVIDE (SDMMC, 0x3ff68000)
                 0x0000000040008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
-OUTPUT(/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader.elf elf32-xtensa-le)
 
 .debug_frame    0x0000000000000000      0x8b0
- .debug_frame   0x0000000000000000      0x160 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_frame   0x0000000000000160       0xd0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x0000000000000230       0x58 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x0000000000000288       0x58 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x00000000000002e0       0x28 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x0000000000000308       0x58 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x0000000000000360      0x208 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_frame   0x0000000000000568      0x280 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_frame   0x00000000000007e8       0xa0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x0000000000000000      0x160 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x0000000000000160       0xd0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x0000000000000230       0x58 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_frame   0x0000000000000288       0x58 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000000000002e0       0x28 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x0000000000000308       0x58 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000000000000360      0x208 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x0000000000000568      0x280 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x00000000000007e8       0xa0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_frame   0x0000000000000888       0x28 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_info     0x0000000000000000     0x6375
- .debug_info    0x0000000000000000     0x22c2 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x00000000000022c2      0xc05 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x0000000000002ec7      0x278 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x000000000000313f      0x784 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x00000000000038c3      0x381 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0000000000003c44      0x27c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x0000000000003ec0      0xaf5 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_info    0x00000000000049b5     0x1095 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_info    0x0000000000005a4a      0x363 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000000000000000     0x22c2 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x00000000000022c2      0xc05 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x0000000000002ec7      0x278 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x000000000000313f      0x784 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x00000000000038c3      0x381 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x0000000000003c44      0x27c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x0000000000003ec0      0xaf5 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x00000000000049b5     0x1095 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x0000000000005a4a      0x363 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_info    0x0000000000005dad      0x5c8 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_abbrev   0x0000000000000000     0x13f0
- .debug_abbrev  0x0000000000000000      0x44a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x000000000000044a      0x22f /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x0000000000000679      0x126 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x000000000000079f      0x191 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x0000000000000930      0x16c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x0000000000000a9c      0x13f /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x0000000000000bdb      0x22e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_abbrev  0x0000000000000e09      0x326 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_abbrev  0x000000000000112f      0x162 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x0000000000000000      0x44a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x000000000000044a      0x22f /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x0000000000000679      0x126 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x000000000000079f      0x191 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x0000000000000930      0x16c /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x0000000000000a9c      0x13f /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x0000000000000bdb      0x22e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x0000000000000e09      0x326 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x000000000000112f      0x162 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_abbrev  0x0000000000001291      0x15f /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_loc      0x0000000000000000     0x386f
- .debug_loc     0x0000000000000000      0xd20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x0000000000000d20      0x638 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x0000000000001358       0x91 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_loc     0x00000000000013e9      0x412 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x00000000000017fb      0x116 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000001911       0xec /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_loc     0x00000000000019fd      0xa20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_loc     0x000000000000241d      0x8a0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_loc     0x0000000000002cbd      0x1ca /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x0000000000000000      0xd20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x0000000000000d20      0x638 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000000000001358       0x91 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x00000000000013e9      0x412 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00000000000017fb      0x116 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x0000000000001911       0xec /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x00000000000019fd      0xa20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x000000000000241d      0x8a0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000000000002cbd      0x1ca /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_loc     0x0000000000002e87      0x9e8 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_aranges  0x0000000000000000      0x3a0
  .debug_aranges
-                0x0000000000000000       0x88 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000000000000       0x88 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
-                0x0000000000000088       0x58 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000088       0x58 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000000000000e0       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000000000e0       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x0000000000000110       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000110       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x0000000000000140       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000000000140       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x0000000000000160       0x30 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000160       0x30 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x0000000000000190       0xc0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000190       0xc0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
  .debug_aranges
-                0x0000000000000250       0xe8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x0000000000000250       0xe8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
  .debug_aranges
-                0x0000000000000338       0x48 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+                0x0000000000000338       0x48 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_aranges
                 0x0000000000000380       0x20 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_ranges   0x0000000000000000      0x428
- .debug_ranges  0x0000000000000000       0xa8 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_ranges  0x00000000000000a8       0x48 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x00000000000000f0       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x0000000000000110       0x80 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x0000000000000190       0x28 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x00000000000001b8       0x20 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x00000000000001d8       0xb0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_ranges  0x0000000000000288      0x108 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_ranges  0x0000000000000390       0x38 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x0000000000000000       0xa8 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x00000000000000a8       0x48 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x00000000000000f0       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_ranges  0x0000000000000110       0x80 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x0000000000000190       0x28 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x00000000000001b8       0x20 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x00000000000001d8       0xb0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x0000000000000288      0x108 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x0000000000000390       0x38 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_ranges  0x00000000000003c8       0x60 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .debug_line     0x0000000000000000     0x3a41
- .debug_line    0x0000000000000000      0xbfa /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x0000000000000bfa      0x594 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x000000000000118e      0x39f /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x000000000000152d      0x584 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000001ab1      0x2ec /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x0000000000001d9d      0x26d /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x000000000000200a      0xae0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .debug_line    0x0000000000002aea      0xa5e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .debug_line    0x0000000000003548      0x360 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x0000000000000000      0xbfa /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000bfa      0x594 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x000000000000118e      0x39f /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x000000000000152d      0x584 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000001ab1      0x2ec /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x0000000000001d9d      0x26d /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x000000000000200a      0xae0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000000000002aea      0xa5e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x0000000000003548      0x360 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .debug_line    0x00000000000038a8      0x199 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x1fad
- .debug_str     0x0000000000000000      0xe9c /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0xf6c (size before relaxing)
- .debug_str     0x0000000000000e9c      0x205 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x5be (size before relaxing)
- .debug_str     0x00000000000010a1       0x8d /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                        0x261 (size before relaxing)
- .debug_str     0x000000000000112e      0x142 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x5ca (size before relaxing)
- .debug_str     0x0000000000001270       0x63 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x3bf (size before relaxing)
- .debug_str     0x00000000000012d3       0xff /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
-                                        0x2a7 (size before relaxing)
- .debug_str     0x00000000000013d2      0x4b2 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_str      0x0000000000000000     0x1f95
+ .debug_str     0x0000000000000000      0xe96 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0xf66 (size before relaxing)
+ .debug_str     0x0000000000000e96      0x1ff /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x5b8 (size before relaxing)
+ .debug_str     0x0000000000001095       0x8d /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000001122      0x142 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x0000000000001264       0x63 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x3b9 (size before relaxing)
+ .debug_str     0x00000000000012c7       0xf9 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+                                        0x2a1 (size before relaxing)
+ .debug_str     0x00000000000013c0      0x4b2 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                         0x76a (size before relaxing)
- .debug_str     0x0000000000001884      0x43f /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
-                                        0x7fe (size before relaxing)
- .debug_str     0x0000000000001cc3      0x12e /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_str     0x0000000000001872      0x439 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x7f8 (size before relaxing)
+ .debug_str     0x0000000000001cab      0x12e /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
                                         0x369 (size before relaxing)
- .debug_str     0x0000000000001df1      0x1bc /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000001dd9      0x1bc /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
                                         0x26e (size before relaxing)
 
 .comment        0x0000000000000000       0x3a
- .comment       0x0000000000000000       0x3a /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .comment       0x0000000000000000       0x3a /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x3b (size before relaxing)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .comment       0x000000000000003a       0x3b /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .comment       0x000000000000003a       0x3b /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .comment       0x000000000000003a       0x3b /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/main/libmain.a(bootloader_start.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/log/liblog.a(log.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
- .xtensa.info   0x0000000000000038        0x0 /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xtensa.info   0x0000000000000000       0x38 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xtensa.info   0x0000000000000038        0x0 /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/bootloader/soc/libsoc.a(rtc_time.o)
  .xtensa.info   0x0000000000000038        0x0 /Users/constantino/esp/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)

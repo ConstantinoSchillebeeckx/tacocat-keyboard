@@ -1,5 +1,5 @@
 int_wdt.o: /Users/constantino/esp/esp-idf/components/esp32/./int_wdt.c \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/stdint.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/features.h \
@@ -66,7 +66,7 @@ int_wdt.o: /Users/constantino/esp/esp-idf/components/esp32/./int_wdt.c \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_int_wdt.h
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/newlib/include/stdint.h:
 

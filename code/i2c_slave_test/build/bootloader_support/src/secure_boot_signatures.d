@@ -1,6 +1,6 @@
 src/secure_boot_signatures.o: \
  /Users/constantino/esp/esp-idf/components/bootloader_support/src/secure_boot_signatures.c \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/stdint.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/machine/_default_types.h \
@@ -37,7 +37,7 @@ src/secure_boot_signatures.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/rom/sha.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_types.h
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/bootloader_support/include_priv/bootloader_flash.h:
 

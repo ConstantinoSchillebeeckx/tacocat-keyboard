@@ -24,7 +24,7 @@ src/flash_encrypt.o: \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/stdio.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/assert.h \
  /Users/constantino/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h \
  /Users/constantino/esp/esp-idf/components/bootloader_support/include/esp_image_format.h \
  /Users/constantino/esp/esp-idf/components/bootloader_support/include/esp_flash_encrypt.h \
@@ -94,7 +94,7 @@ src/flash_encrypt.o: \
 
 /Users/constantino/esp/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/bootloader_support/include_priv/bootloader_random.h:
 

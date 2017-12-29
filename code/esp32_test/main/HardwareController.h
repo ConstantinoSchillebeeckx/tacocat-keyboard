@@ -10,12 +10,6 @@
 
 class HardwareController {
 private:
-    static void set_red_led(bool value);
-    static void set_green_led(bool value);
-    static void set_blue_led(bool value);
-    static void set_red_pwm(uint8_t value);
-    static void set_green_pwm(uint8_t value);
-    static void set_blue_pwm(uint8_t value);
 public:
     HardwareController();
     //Simply iterates through all PHYSICAL keys (i.e. buttons) and

@@ -25,7 +25,7 @@ queue.o: /Users/constantino/esp/esp-idf/components/freertos/./queue.c \
  /Users/constantino/esp/esp-idf/components/newlib/include/assert.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -104,7 +104,7 @@ queue.o: /Users/constantino/esp/esp-idf/components/freertos/./queue.c \
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

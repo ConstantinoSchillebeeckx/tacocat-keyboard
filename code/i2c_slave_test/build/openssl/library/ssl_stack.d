@@ -8,7 +8,7 @@ library/ssl_stack.o: \
  /Users/constantino/esp/esp-idf/components/openssl/include/internal/x509_vfy.h \
  /Users/constantino/esp/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /Users/constantino/esp/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/openssl/include/platform/ssl_port.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_types.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -53,7 +53,7 @@ library/ssl_stack.o: \
 
 /Users/constantino/esp/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/openssl/include/platform/ssl_port.h:
 

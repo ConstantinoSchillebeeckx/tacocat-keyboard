@@ -8,7 +8,7 @@ push_detector.update() [ButtonDeltaDetector]:
 - translates individual key presses into key press deltas (changes in key press state: 1 for key pressed, -1 for key released)
 
 key_mapper.resolve() [KeyMapper]:
-- translate the array of pressed key indexes into an array of pressed key button codes (see keylayouts.h)
+- translate the array of key indexes into an array of pressed key button codes (see keylayouts.h)
 
 slave.update() [SlaveNotifier]:
 - if the keyboard acts as a slave, this will just generate an empty key array

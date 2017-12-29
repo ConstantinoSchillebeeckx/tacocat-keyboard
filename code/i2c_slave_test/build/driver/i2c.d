@@ -38,7 +38,7 @@ i2c.o: /Users/constantino/esp/esp-idf/components/driver/./i2c.c \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  /Users/constantino/esp/esp-idf/components/log/include/esp_log.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/malloc.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/machine/malloc.h \
@@ -162,7 +162,7 @@ i2c.o: /Users/constantino/esp/esp-idf/components/driver/./i2c.c \
 
 /Users/constantino/esp/esp-idf/components/log/include/esp_log.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
 

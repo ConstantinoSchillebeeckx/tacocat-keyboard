@@ -17,7 +17,7 @@ esp32/cpu_util.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
  /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h
 
 /Users/constantino/esp/esp-idf/components/esp32/include/esp_attr.h:
 
@@ -53,4 +53,4 @@ esp32/cpu_util.o: \
 
 /Users/constantino/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:

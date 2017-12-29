@@ -41,7 +41,7 @@ syscall_table.o: \
  /Users/constantino/esp/esp-idf/components/newlib/include/dirent.h \
  /Users/constantino/esp/esp-idf/components/vfs/include/sys/dirent.h \
  /Users/constantino/esp/esp-idf/components/newlib/platform_include/esp_newlib.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h
 
 /Users/constantino/esp/esp-idf/components/newlib/include/string.h:
 
@@ -125,4 +125,4 @@ syscall_table.o: \
 
 /Users/constantino/esp/esp-idf/components/newlib/platform_include/esp_newlib.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:

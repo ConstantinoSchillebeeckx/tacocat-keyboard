@@ -20,9 +20,27 @@
 /**
  * @brief i2c slave initialization
  */
+// static void i2c_example_slave_init()
+// {
+//     int i2c_slave_port = I2C_EXAMPLE_SLAVE_NUM;
+//     i2c_config_t conf_slave;
+//     conf_slave.sda_io_num = I2C_EXAMPLE_SLAVE_SDA_IO;
+//     conf_slave.sda_pullup_en = GPIO_PULLUP_ENABLE;
+//     conf_slave.scl_io_num = I2C_EXAMPLE_SLAVE_SCL_IO;
+//     conf_slave.scl_pullup_en = GPIO_PULLUP_ENABLE;
+//     conf_slave.mode = I2C_MODE_SLAVE;
+//     conf_slave.slave.addr_10bit_en = 0;
+//     conf_slave.slave.slave_addr = ESP_SLAVE_ADDR;
+//     i2c_param_config(i2c_slave_port, &conf_slave);
+//     i2c_driver_install(i2c_slave_port, conf_slave.mode,
+//                        I2C_EXAMPLE_SLAVE_RX_BUF_LEN,
+//                        I2C_EXAMPLE_SLAVE_TX_BUF_LEN, 0);
+// }
+/**
+ * @brief i2c slave initialization
+ */
 static void i2c_example_slave_init()
 {
-    int i2c_slave_port = I2C_EXAMPLE_SLAVE_NUM;
     i2c_config_t conf_slave;
     conf_slave.sda_io_num = I2C_EXAMPLE_SLAVE_SDA_IO;
     conf_slave.sda_pullup_en = GPIO_PULLUP_ENABLE;
@@ -31,8 +49,9 @@ static void i2c_example_slave_init()
     conf_slave.mode = I2C_MODE_SLAVE;
     conf_slave.slave.addr_10bit_en = 0;
     conf_slave.slave.slave_addr = ESP_SLAVE_ADDR;
-    i2c_param_config(i2c_slave_port, &conf_slave);
-    i2c_driver_install(i2c_slave_port, conf_slave.mode,
+	
+    i2c_param_config(I2C_EXAMPLE_SLAVE_NUM, &conf_slave);
+    i2c_driver_install(I2C_EXAMPLE_SLAVE_NUM, conf_slave.mode,
                        I2C_EXAMPLE_SLAVE_RX_BUF_LEN,
                        I2C_EXAMPLE_SLAVE_TX_BUF_LEN, 0);
 }
@@ -41,7 +60,6 @@ static void i2c_example_slave_init()
 
 
 void task(void *ignore) {
-	i2c_example_slave_init();
 
 	uint8_t* data = (uint8_t*) malloc(DATA_LENGTH);
 

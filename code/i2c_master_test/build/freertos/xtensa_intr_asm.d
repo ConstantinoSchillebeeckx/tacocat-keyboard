@@ -14,7 +14,7 @@ xtensa_intr_asm.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/system.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_context.h
 
@@ -46,7 +46,7 @@ xtensa_intr_asm.o: \
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

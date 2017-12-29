@@ -27,7 +27,7 @@ app_trace.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_dport_access.h \
  /Users/constantino/esp/esp-idf/components/xtensa-debug-module/include/eri.h \
  /Users/constantino/esp/esp-idf/components/xtensa-debug-module/include/trax.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_err.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/stdio.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/types.h \
@@ -126,7 +126,7 @@ app_trace.o: \
 
 /Users/constantino/esp/esp-idf/components/xtensa-debug-module/include/trax.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/esp32/include/esp_err.h:
 

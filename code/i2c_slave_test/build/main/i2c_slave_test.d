@@ -1,5 +1,5 @@
 i2c_slave_test.o: \
- /Users/constantino/Documents/tacocat-keyboard/code/i2c_slave_test/main/./i2c_slave_test.c \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/main/./i2c_slave_test.c \
  /Users/constantino/esp/esp-idf/components/driver/include/driver/i2c.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_types.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -26,7 +26,7 @@ i2c_slave_test.o: \
  /Users/constantino/esp/esp-idf/components/esp32/include/esp_intr_alloc.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/constantino/Documents/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/hal.h \
  /Users/constantino/esp/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -125,7 +125,7 @@ i2c_slave_test.o: \
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_slave_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

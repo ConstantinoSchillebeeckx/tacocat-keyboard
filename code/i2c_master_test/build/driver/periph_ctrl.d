@@ -33,7 +33,7 @@ periph_ctrl.o: \
  /Users/constantino/esp/esp-idf/components/newlib/include/machine/_types.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/sys/lock.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h \
+ /Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h \
  /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/stdlib.h \
  /Users/constantino/esp/esp-idf/components/newlib/include/machine/stdlib.h \
@@ -130,7 +130,7 @@ periph_ctrl.o: \
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/Users/constantino/Documents/tacocat-keyboard/code/esp32_test/build/include/sdkconfig.h:
+/Users/constantino/tacocat-keyboard/code/i2c_master_test/build/include/sdkconfig.h:
 
 /Users/constantino/esp/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
