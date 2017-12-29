@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -276,7 +276,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
 <packages>
 <package name="SMADIODE">
 <description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
@@ -3566,67 +3566,6 @@ Metric Code Size 5664</description>
 <text x="-2.8" y="-4.575" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.8" y1="-3.15" x2="-2.2" y2="3.15" layer="51"/>
 <rectangle x1="2.2" y1="-3.15" x2="2.8" y2="3.15" layer="51"/>
-</package>
-<package name="WS2812B">
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
-<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
-<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
-<wire x1="-1.6" y1="2.5" x2="-1.3" y2="2.8" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="2.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="3.2" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-</package>
-<package name="WS2812B-NARROW">
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
-<smd name="1-VDD" x="2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="2-DOUT" x="2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="4-DIN" x="-2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
-<smd name="3-GND" x="-2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
-<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
-<wire x1="-1.6" y1="2.5" x2="-1.25" y2="2.85" width="0.127" layer="21"/>
-<wire x1="-1.25" y1="2.85" x2="-1.7" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="3.3" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-</package>
-<package name="LED3535">
-<smd name="1" x="-1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="-1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
-<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
-<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
-<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
-<wire x1="-1.9" y1="1.6" x2="-1.9" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
-<wire x1="1.9" y1="1.9" x2="1.9" y2="1.6" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.6" x2="-1.9" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="1.9" y1="-1.9" x2="1.9" y2="-1.6" width="0.127" layer="21"/>
-<text x="-1.905" y="2.159" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="-1.778" y="-2.54" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
-<vertex x="-1.905" y="1.905"/>
-<vertex x="-1.905" y="1.524"/>
-<vertex x="-1.524" y="1.524"/>
-<vertex x="-1.143" y="1.905"/>
-</polygon>
 </package>
 <package name="CT3216">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -7876,51 +7815,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="WS2812BLED">
-<pin name="VDD" x="5.08" y="15.24" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<pin name="DI" x="-12.7" y="-2.54" visible="pin" length="middle" direction="in"/>
-<pin name="GND" x="0" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="DO" x="12.7" y="-2.54" visible="pin" length="middle" direction="out" rot="R180"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-6.35" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-4.064" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<text x="-4.064" y="8.382" size="1.27" layer="94">WS2812B</text>
-<wire x1="-3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-</symbol>
 <symbol name="CPOL-US">
 <wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
@@ -9413,46 +9307,6 @@ diameter 5 mm, grid 2.54 mm</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="WS2812B" prefix="LED">
-<gates>
-<gate name="G$1" symbol="WS2812BLED" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="5050" package="WS2812B">
-<connects>
-<connect gate="G$1" pin="DI" pad="4-DIN"/>
-<connect gate="G$1" pin="DO" pad="2-DOUT"/>
-<connect gate="G$1" pin="GND" pad="3-GND"/>
-<connect gate="G$1" pin="VDD" pad="1-VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_5050N" package="WS2812B-NARROW">
-<connects>
-<connect gate="G$1" pin="DI" pad="4-DIN"/>
-<connect gate="G$1" pin="DO" pad="2-DOUT"/>
-<connect gate="G$1" pin="GND" pad="3-GND"/>
-<connect gate="G$1" pin="VDD" pad="1-VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3535" package="LED3535">
-<connects>
-<connect gate="G$1" pin="DI" pad="1"/>
-<connect gate="G$1" pin="DO" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11975,6 +11829,37 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="USB-MINIB">
+<description>&lt;h3&gt;USB Type Mini-B Surface Mounted&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 5 main, 4 shield pins&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/miniUSB-Dimensional.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_Mini-B&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
+<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="S3" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S1" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="S2" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<text x="-3.81" y="6.35" size="0.8128" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="0.8128" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<hole x="0" y="2.2" drill="0.9"/>
+<hole x="0" y="-2.2" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="AUDIO-JACK3-TRRS">
@@ -12093,6 +11978,24 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <wire x1="2.54" y1="0.508" x2="2.54" y2="1.524" width="0.254" layer="94"/>
 <wire x1="0" y1="0.508" x2="0" y2="1.524" width="0.254" layer="94"/>
 <text x="-2.54" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="USB-5PIN">
+<description>&lt;h3&gt;USB - 5 pin&lt;/h3&gt;
+&lt;p&gt;5 pin USB connector: VBUS, GND, D+, D-, ID &lt;/p&gt;
+&lt;p&gt;Includes 4 pins for shield connections &lt;/p&gt;</description>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="2.794" y="-3.302" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="D+" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="D-" x="-5.08" y="2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-5.08" y="5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="GND" x="-5.08" y="-5.08" visible="pad" length="short" direction="pwr"/>
+<pin name="ID" x="-5.08" y="-2.54" visible="pad" length="short"/>
+<pin name="SHIELD" x="7.62" y="0" visible="pad" length="short" rot="R180"/>
+<text x="-2.54" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12587,159 +12490,212 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB_MINI-B" prefix="J">
+<description>&lt;h3&gt;USB type Mini-B Connector&lt;/h3&gt;
+&lt;p&gt;Breaks out 5th pin, and includes shield pins if needed.&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9716”&gt;SparkFun FTDI Basic Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11812”&gt;SparkFun XBee Explorer USB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;SparkFun Redboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB-5PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_SMT" package="USB-MINIB">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08193"/>
+<attribute name="SF_ID" value="PRT-00587" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
-<library name="EAGLE-INPUT_OUTPUT_CONNECTORS-rev17a">
-<description>&lt;BR&gt;Wurth Elektronik - Input/Output Connectors &lt;br&gt;&lt;Hr&gt;
-&lt;BR&gt;&lt;BR&gt; 
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-405&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-&lt;hr&gt;
-Eagle Version 6, Library Revision 2017a,2017-01-10&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
+<library name="adafruit">
 <packages>
-<package name="629105136821">
-<description>WR-COM SMT Horizontal 5 Contacts Micro USB Type B, 5 pins</description>
-<wire x1="-4" y1="3.15" x2="4" y2="3.15" width="0.127" layer="51"/>
-<wire x1="4" y1="3.15" x2="4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="4" y1="-2.15" x2="-4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-4" y1="-2.15" x2="-4" y2="3.15" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1.45" x2="4" y2="-1.45" width="0.127" layer="21"/>
-<smd name="3" x="0" y="3.0226" dx="0.4" dy="2.032" layer="1"/>
-<smd name="4" x="0.65" y="3.0226" dx="0.4" dy="2.032" layer="1"/>
-<smd name="2" x="-0.65" y="3.0226" dx="0.4" dy="2.032" layer="1"/>
-<smd name="1" x="-1.3" y="3.0226" dx="0.4" dy="2.032" layer="1"/>
-<smd name="5" x="1.3" y="3.0226" dx="0.4" dy="2.032" layer="1"/>
-<smd name="SHELL3" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="SHELL2" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="SHELL1" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="SHELL" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<text x="-1.605" y="1.205" size="0.6096" layer="51">1</text>
-<text x="1.235" y="1.205" size="0.6096" layer="51">5</text>
-<text x="-1.06" y="-1.94" size="0.3048" layer="51">PCB EDGE</text>
-<text x="-2.005" y="-2.61" size="0.3048" layer="51">CONNECTOR EDGE</text>
-<text x="-1.963" y="4.2289" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2.463" y="-4.4854" size="0.8128" layer="27">&gt;VALUE</text>
-<hole x="-2.075" y="2.45" drill="0.7"/>
-<hole x="2.075" y="2.45" drill="0.7"/>
-<text x="-1.605" y="1.205" size="0.6096" layer="21">1</text>
-<wire x1="-1.68" y1="3.15" x2="-4" y2="3.15" width="0.127" layer="21"/>
-<wire x1="-4" y1="3.15" x2="-4" y2="1.17" width="0.127" layer="21"/>
-<wire x1="1.74" y1="3.15" x2="4" y2="3.15" width="0.127" layer="21"/>
-<wire x1="4" y1="3.15" x2="4" y2="1.18" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.16" x2="-4" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.14" x2="4" y2="-1.45" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-5.25" y="3.5"/>
-<vertex x="5.25" y="3.5"/>
-<vertex x="5.25" y="-2.5"/>
-<vertex x="-5.25" y="-2.5"/>
+<package name="WS2812B-NARROW">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.35" y="-1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.35" y="1.65" dx="1.3" dy="1.2" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<wire x1="-1.6" y1="2.5" x2="-1.25" y2="2.85" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2.85" x2="-1.7" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="3.3" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+</package>
+<package name="WS2812B">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<wire x1="-1.6" y1="2.5" x2="-1.3" y2="2.8" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="2.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="3.2" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+</package>
+<package name="LED3535">
+<smd name="1" x="-1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="1.75" y="0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.75" y="-0.875" dx="0.85" dy="1" layer="1" rot="R90"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
+<wire x1="-1.9" y1="1.6" x2="-1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="1.9" x2="1.9" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.6" x2="-1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-1.9" x2="1.9" y2="-1.6" width="0.127" layer="21"/>
+<text x="-1.905" y="2.159" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.778" y="-2.54" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-1.905" y="1.905"/>
+<vertex x="-1.905" y="1.524"/>
+<vertex x="-1.524" y="1.524"/>
+<vertex x="-1.143" y="1.905"/>
 </polygon>
+</package>
+<package name="WS2812B-NARROW-PADS">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="-1.6" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.794" y="-1.65" dx="2.032" dy="1.2" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.794" y="1.65" dx="2.032" dy="1.2" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.794" y="-1.65" dx="2.032" dy="1.2" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.794" y="1.65" dx="2.032" dy="1.2" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="4.7625" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<wire x1="-1.6" y1="2.5" x2="-1.25" y2="2.85" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="2.85" x2="-1.7" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="3.3" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="5_USB_A">
-<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="3.81" y2="7.62" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<text x="-2.54" y="10.668" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-13.97" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="-7.62" y="5.08" length="middle" direction="pas"/>
-<pin name="ID" x="-7.62" y="2.54" length="middle" direction="pas"/>
-<pin name="D+" x="-7.62" y="0" length="middle" direction="pas"/>
-<pin name="D-" x="-7.62" y="-2.54" length="middle" direction="pas"/>
-<pin name="VBUS" x="-7.62" y="-5.08" length="middle" direction="pas"/>
-<wire x1="5.08" y1="8.89" x2="5.08" y2="-8.89" width="0.254" layer="94" style="shortdash"/>
-<wire x1="5.08" y1="-8.89" x2="1.27" y2="-8.89" width="0.254" layer="94" style="shortdash"/>
-<wire x1="1.27" y1="-8.89" x2="1.27" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<pin name="SHIELD" x="-5.08" y="-10.16" length="middle" direction="pas"/>
-<wire x1="0" y1="-10.16" x2="1.27" y2="-10.16" width="0.254" layer="94" style="shortdash"/>
-<wire x1="1.27" y1="8.89" x2="5.08" y2="8.89" width="0.254" layer="94" style="shortdash"/>
-<text x="4.445" y="-2.2225" size="1.778" layer="94" rot="R90">USB</text>
+<symbol name="WS2812BLED">
+<pin name="VDD" x="5.08" y="15.24" visible="pin" length="middle" direction="pwr" rot="R270"/>
+<pin name="DI" x="-12.7" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="GND" x="0" y="-10.16" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="DO" x="12.7" y="-2.54" visible="pin" length="middle" direction="out" rot="R180"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-1.27" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.064" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="-4.064" y="8.382" size="1.27" layer="94">WS2812B</text>
+<wire x1="-3.81" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="629105136821" prefix="J" uservalue="yes">
-<description>&lt;b&gt;WR-COM SMT Horizontal 5 Contacts Micro USB Type B,5 pins&lt;/b&gt;=&gt;Code : Con_I-O_COM_MicroUSB_629105136821
-&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_I-O_COM_MicroUSB_629105136821_pf2.jpg" title="Enlarge picture"&gt;
-&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_I-O_COM_MicroUSB_629105136821_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="http://katalog.we-online.de/en/em/COM_MICRO_SMT_TYPE_B_HORIZONTAL/629105136821?m"&gt;http://katalog.we-online.de/en/em/COM_MICRO_SMT_TYPE_B_HORIZONTAL/629105136821?m&lt;/a&gt;&lt;p&gt;
-Created 2014-07-09, Karrer Zheng&lt;br&gt;
-2014 (C) Würth Elektronik</description>
+<deviceset name="WS2812B" prefix="LED">
 <gates>
-<gate name="G$1" symbol="5_USB_A" x="0" y="0"/>
+<gate name="G$1" symbol="WS2812BLED" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="629105136821">
+<device name="5050" package="WS2812B">
 <connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="SHELL SHELL1 SHELL2 SHELL3"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_5050N" package="WS2812B-NARROW">
+<connects>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3535" package="LED3535">
+<connects>
+<connect gate="G$1" pin="DI" pad="1"/>
+<connect gate="G$1" pin="DO" pad="3"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LONGPADS" package="WS2812B-NARROW-PADS">
+<connects>
+<connect gate="G$1" pin="DI" pad="4-DIN"/>
+<connect gate="G$1" pin="DO" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12790,158 +12746,158 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <part name="U$32" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
 <part name="U$33" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK"/>
 <part name="U$34" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
-<part name="D1" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D2" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D3" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D4" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D5" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D6" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D7" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D8" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D9" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D10" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D11" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D12" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D13" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D15" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D16" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D17" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D18" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D19" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D20" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D22" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D23" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D24" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D25" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D26" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D27" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D28" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D29" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D30" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D31" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D32" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D33" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="D34" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D22" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D29" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D30" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D31" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D32" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D33" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
+<part name="D34" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="JP3" library="adafruit" deviceset="PINHD-1X15" device="-CB"/>
+<part name="JP3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X15" device="-CB"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="P+2" library="supply1" deviceset="V+" device=""/>
-<part name="R1" library="adafruit" deviceset="R-US_" device="0204/7" value="330"/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="V+" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_20" device="NOSILK"/>
 <part name="U$12" library="cherrymx" deviceset="CHERRY-MX" device="SYMM-NOSILK" value="CHERRY-MXSYMM-NOSILK"/>
 <part name="P+19" library="supply1" deviceset="V+" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
-<part name="LED1" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="C11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="LED1" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="LED2" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED2" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+31" library="supply1" deviceset="V+" device=""/>
-<part name="C23" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C23" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
-<part name="LED3" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED3" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+32" library="supply1" deviceset="V+" device=""/>
-<part name="C24" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C24" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="LED4" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED4" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+33" library="supply1" deviceset="V+" device=""/>
-<part name="C25" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C25" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="LED5" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED5" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+34" library="supply1" deviceset="V+" device=""/>
-<part name="C26" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C26" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="LED6" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED6" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+35" library="supply1" deviceset="V+" device=""/>
-<part name="C27" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C27" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
-<part name="LED7" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED7" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+36" library="supply1" deviceset="V+" device=""/>
-<part name="C28" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C28" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="LED8" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED8" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+20" library="supply1" deviceset="V+" device=""/>
-<part name="C12" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="LED9" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED9" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+21" library="supply1" deviceset="V+" device=""/>
-<part name="C13" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C13" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="LED10" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED10" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+22" library="supply1" deviceset="V+" device=""/>
-<part name="C14" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C14" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="LED11" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED11" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+23" library="supply1" deviceset="V+" device=""/>
-<part name="C15" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C15" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="LED12" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED12" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+24" library="supply1" deviceset="V+" device=""/>
-<part name="C16" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="LED13" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED13" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+9" library="supply1" deviceset="V+" device=""/>
-<part name="C6" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="LED14" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED14" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+10" library="supply1" deviceset="V+" device=""/>
-<part name="C7" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="LED15" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED15" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+11" library="supply1" deviceset="V+" device=""/>
-<part name="C8" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="LED16" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED16" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+12" library="supply1" deviceset="V+" device=""/>
-<part name="C9" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="LED17" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED17" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+13" library="supply1" deviceset="V+" device=""/>
-<part name="C10" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="LED18" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED18" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+3" library="supply1" deviceset="V+" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="LED19" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED19" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
-<part name="C2" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LED20" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED20" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+5" library="supply1" deviceset="V+" device=""/>
-<part name="C3" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="LED21" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED21" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+6" library="supply1" deviceset="V+" device=""/>
-<part name="C4" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
-<part name="LED22" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED22" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
-<part name="C5" library="adafruit" deviceset="C-US" device="025-025X050" value=".1 uF"/>
+<part name="C5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="025-025X050" value=".1 uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="AUDIO_JACK_TRRS" device="SMD_RA"/>
@@ -12951,79 +12907,79 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <part name="P+14" library="supply1" deviceset="V+" device=""/>
 <part name="J12" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK_SMALL"/>
-<part name="J3" library="EAGLE-INPUT_OUTPUT_CONNECTORS-rev17a" deviceset="629105136821" device=""/>
-<part name="J5" library="EAGLE-INPUT_OUTPUT_CONNECTORS-rev17a" deviceset="629105136821" device=""/>
-<part name="R2" library="adafruit" deviceset="R-US_" device="0204/7" value="330"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="USB_MINI-B" device="_SMT"/>
+<part name="J5" library="SparkFun-Connectors" deviceset="USB_MINI-B" device="_SMT"/>
+<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="0204/7" value="330"/>
 <part name="P+16" library="supply1" deviceset="V+" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="LED23" library="adafruit" deviceset="WS2812B" device="_5050N"/>
-<part name="LED24" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED23" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
+<part name="LED24" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+17" library="supply1" deviceset="V+" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="LED25" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED25" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+18" library="supply1" deviceset="V+" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
-<part name="LED26" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED26" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+25" library="supply1" deviceset="V+" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="LED27" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED27" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+26" library="supply1" deviceset="V+" device=""/>
 <part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="LED28" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED28" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+27" library="supply1" deviceset="V+" device=""/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
-<part name="LED29" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED29" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+28" library="supply1" deviceset="V+" device=""/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
-<part name="LED30" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED30" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+29" library="supply1" deviceset="V+" device=""/>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
-<part name="LED31" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED31" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+30" library="supply1" deviceset="V+" device=""/>
 <part name="GND66" library="supply1" deviceset="GND" device=""/>
-<part name="LED32" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED32" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+37" library="supply1" deviceset="V+" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
-<part name="LED33" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED33" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+38" library="supply1" deviceset="V+" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
-<part name="LED34" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED34" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+39" library="supply1" deviceset="V+" device=""/>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
-<part name="LED35" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED35" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+40" library="supply1" deviceset="V+" device=""/>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
-<part name="LED36" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED36" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+41" library="supply1" deviceset="V+" device=""/>
 <part name="GND76" library="supply1" deviceset="GND" device=""/>
-<part name="LED37" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED37" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+42" library="supply1" deviceset="V+" device=""/>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
-<part name="LED38" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED38" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+43" library="supply1" deviceset="V+" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
-<part name="LED39" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED39" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+44" library="supply1" deviceset="V+" device=""/>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
-<part name="LED40" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED40" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+45" library="supply1" deviceset="V+" device=""/>
 <part name="GND84" library="supply1" deviceset="GND" device=""/>
-<part name="LED41" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED41" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+46" library="supply1" deviceset="V+" device=""/>
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
-<part name="LED42" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED42" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+47" library="supply1" deviceset="V+" device=""/>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
-<part name="LED43" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED43" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+48" library="supply1" deviceset="V+" device=""/>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
-<part name="LED44" library="adafruit" deviceset="WS2812B" device="_5050N"/>
+<part name="LED44" library="adafruit" deviceset="WS2812B" device="LONGPADS" value="WS2812BLONGPADS"/>
 <part name="P+49" library="supply1" deviceset="V+" device=""/>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
 <part name="J11" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device=""/>
 <part name="VBAT" library="supply1" deviceset="V+" device=""/>
-<part name="C17" library="adafruit" deviceset="CPOL-US" device="E3.5-8" value="1000uF"/>
+<part name="C17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="CPOL-US" device="E3.5-8" value="1000uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -13252,8 +13208,8 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <instance part="P+14" gate="1" x="363.22" y="251.46"/>
 <instance part="J12" gate="G$1" x="353.06" y="241.3" rot="MR180"/>
 <instance part="J2" gate="G$1" x="396.24" y="241.3" rot="R180"/>
-<instance part="J3" gate="G$1" x="350.52" y="200.66" rot="R180"/>
-<instance part="J5" gate="G$1" x="398.78" y="200.66" rot="MR180"/>
+<instance part="J3" gate="G$1" x="350.52" y="200.66" rot="MR0"/>
+<instance part="J5" gate="G$1" x="398.78" y="200.66"/>
 <instance part="R2" gate="G$1" x="797.56" y="40.64"/>
 <instance part="P+16" gate="1" x="825.5" y="68.58"/>
 <instance part="GND15" gate="1" x="820.42" y="27.94" rot="MR0"/>
@@ -14232,8 +14188,8 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <wire x1="388.62" y1="246.38" x2="383.54" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="GND"/>
-<wire x1="358.14" y1="195.58" x2="383.54" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="195.58" x2="391.16" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="195.58" x2="383.54" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="195.58" x2="393.7" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="246.38" x2="383.54" y2="195.58" width="0.1524" layer="91"/>
 <junction x="383.54" y="195.58"/>
 </segment>
@@ -14395,8 +14351,8 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <pinref part="J3" gate="G$1" pin="D-"/>
 <pinref part="J5" gate="G$1" pin="D-"/>
 <wire x1="386.08" y1="236.22" x2="360.68" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="203.2" x2="386.08" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="203.2" x2="391.16" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="203.2" x2="386.08" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="203.2" x2="393.7" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="236.22" x2="386.08" y2="203.2" width="0.1524" layer="91"/>
 <junction x="386.08" y="236.22"/>
 <junction x="386.08" y="203.2"/>
@@ -14441,14 +14397,14 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <pinref part="J12" gate="G$1" pin="4"/>
 <wire x1="360.68" y1="238.76" x2="378.46" y2="238.76" width="0.1524" layer="91"/>
 <label x="360.68" y="238.76" size="0.8128" layer="95" rot="R270" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="D+"/>
 <pinref part="J5" gate="G$1" pin="D+"/>
 <wire x1="378.46" y1="238.76" x2="388.62" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="358.14" y1="200.66" x2="378.46" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="200.66" x2="391.16" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="200.66" x2="393.7" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="238.76" x2="378.46" y2="200.66" width="0.1524" layer="91"/>
-<junction x="378.46" y="200.66"/>
 <junction x="378.46" y="238.76"/>
+<pinref part="J3" gate="G$1" pin="D+"/>
+<wire x1="355.6" y1="200.66" x2="378.46" y2="200.66" width="0.1524" layer="91"/>
+<junction x="378.46" y="200.66"/>
 </segment>
 </net>
 <net name="4" class="0">
@@ -14853,8 +14809,8 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <junction x="368.3" y="243.84"/>
 <pinref part="J3" gate="G$1" pin="ID"/>
 <pinref part="J5" gate="G$1" pin="ID"/>
-<wire x1="358.14" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="368.3" y1="198.12" x2="391.16" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="198.12" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="198.12" x2="393.7" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="243.84" x2="368.3" y2="198.12" width="0.1524" layer="91"/>
 <junction x="368.3" y="198.12"/>
 <label x="368.3" y="218.44" size="1.778" layer="95" xref="yes"/>
@@ -14880,8 +14836,8 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <wire x1="360.68" y1="241.3" x2="363.22" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="VBUS"/>
 <pinref part="J5" gate="G$1" pin="VBUS"/>
-<wire x1="358.14" y1="205.74" x2="363.22" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="363.22" y1="205.74" x2="391.16" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="205.74" x2="363.22" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="205.74" x2="393.7" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="241.3" x2="363.22" y2="205.74" width="0.1524" layer="91"/>
 <junction x="363.22" y="205.74"/>
 <label x="363.22" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -15369,47 +15325,17 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <errors>
 <approved hash="102,1,149.86,243.84,V+,VUSB,,,,"/>
 <approved hash="102,1,149.86,236.22,V+,VBAT,,,,"/>
-<approved hash="102,1,358.14,104.14,V+,VBAT,,,,"/>
-<approved hash="102,1,426.72,104.14,V+,VBAT,,,,"/>
-<approved hash="102,1,492.76,104.14,V+,VBAT,,,,"/>
-<approved hash="102,1,563.88,104.14,V+,VBAT,,,,"/>
-<approved hash="102,1,629.92,104.14,V+,VBAT,,,,"/>
 <approved hash="102,1,480.06,243.84,V+,VBAT,,,,"/>
-<approved hash="102,1,355.6,45.72,V+,VBAT,,,,"/>
-<approved hash="102,1,424.18,45.72,V+,VBAT,,,,"/>
-<approved hash="102,1,490.22,45.72,V+,VBAT,,,,"/>
-<approved hash="102,1,561.34,45.72,V+,VBAT,,,,"/>
-<approved hash="102,1,627.38,45.72,V+,VBAT,,,,"/>
-<approved hash="201,1,627.38,45.72,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,561.34,45.72,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,490.22,45.72,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,424.18,45.72,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,355.6,45.72,V+,VUSB\, VBAT,,,,"/>
 <approved hash="201,1,480.06,243.84,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,629.92,104.14,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,563.88,104.14,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,492.76,104.14,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,426.72,104.14,V+,VUSB\, VBAT,,,,"/>
-<approved hash="201,1,358.14,104.14,V+,VUSB\, VBAT,,,,"/>
 <approved hash="201,1,149.86,236.22,V+,VUSB\, VBAT,,,,"/>
 <approved hash="201,1,149.86,243.84,V+,VUSB\, VBAT,,,,"/>
 <approved hash="106,1,203.2,223.52,0,,,,,"/>
-<approved hash="106,1,203.2,226.06,4,,,,,"/>
-<approved hash="106,1,177.8,226.06,12,,,,,"/>
-<approved hash="106,1,177.8,228.6,13,,,,,"/>
-<approved hash="106,1,177.8,223.52,14,,,,,"/>
-<approved hash="106,1,203.2,231.14,16,,,,,"/>
 <approved hash="106,1,203.2,228.6,17,,,,,"/>
-<approved hash="106,1,177.8,215.9,25,,,,,"/>
-<approved hash="106,1,177.8,218.44,26,,,,,"/>
-<approved hash="106,1,177.8,220.98,27,,,,,"/>
 <approved hash="106,1,177.8,210.82,34,,,,,"/>
 <approved hash="106,1,177.8,213.36,35,,,,,"/>
 <approved hash="106,1,177.8,231.14,RST,,,,,"/>
 <approved hash="106,1,203.2,203.2,RX,,,,,"/>
 <approved hash="106,1,203.2,200.66,TX,,,,,"/>
-<approved hash="106,1,149.86,243.84,VUSB,,,,,"/>
-<approved hash="106,1,177.8,241.3,VUSB,,,,,"/>
 <approved hash="113,1,15.24,92.8031,D1,,,,,"/>
 <approved hash="113,1,53.34,92.8031,D2,,,,,"/>
 <approved hash="113,1,91.44,92.8031,D3,,,,,"/>
@@ -15443,10 +15369,15 @@ Created 2014-07-09, Karrer Zheng&lt;br&gt;
 <approved hash="113,1,167.64,-8.79687,D33,,,,,"/>
 <approved hash="113,1,205.74,-8.79687,D34,,,,,"/>
 <approved hash="113,1,202.963,214.761,JP3,,,,,"/>
-<approved hash="113,1,371.517,238.692,J2,,,,,"/>
-<approved hash="113,1,488.357,241.368,J4,,,,,"/>
 <approved hash="113,1,181.017,219.625,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, Eagle supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+</compatibility>
 </eagle>
