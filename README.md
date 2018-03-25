@@ -3,9 +3,9 @@
 <img src="https://github.com/ConstantinoSchillebeeckx/tacocat-keyboard/raw/master/assets/img/tacocat.png" width=150/>
 
 
-<p align="center">
-:construction: this repo is still in progress of being completed :construction:
-</p>
+
+:construction: this repo is currently on *hold*; once I started writing the firmware, I realized the choice of microcontroller was not a good one. For a keyboard, it's super useful to have a USB to serial chip that acts like a [HID](https://en.wikipedia.org/wiki/Human_interface_device), that's why the Teensy or the ATmega32U4 are popular options. That being said, I started developing the firmware in such a way that required a python script to be running on the host to listen to the keystrokes being sent. :sweat: Furthermore, I'm not convinced that the physical layout is that great. Anywho, I'm leaving this here for reference. :construction:
+
 <br>
 <br>
 
